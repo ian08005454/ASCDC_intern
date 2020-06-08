@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 中央研究院實習成果</title>
-    <link>http://github.com/ian08005454/ASCDC_intern/categories/</link>
+    <link>ian08005454.github.io/ASCDC_intern/categories/</link>
     <description>Recent content in Categories on 中央研究院實習成果</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copyright &amp;copy; 2020 [中央研究院數位文化中心](https://ascdc.sinica.edu.tw/) All Rights Reserved</copyright>
     <lastBuildDate>Sun, 07 Jun 2020 15:33:30 +0800</lastBuildDate>
     
-	<atom:link href="http://github.com/ian08005454/ASCDC_intern/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="ian08005454.github.io/ASCDC_intern/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Web</title>
-      <link>http://github.com/ian08005454/ASCDC_intern/categories/web/</link>
+      <link>ian08005454.github.io/ASCDC_intern/categories/web/</link>
       <pubDate>Sun, 07 Jun 2020 15:33:30 +0800</pubDate>
       
-      <guid>http://github.com/ian08005454/ASCDC_intern/categories/web/</guid>
+      <guid>ian08005454.github.io/ASCDC_intern/categories/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Artificial Intelligence</title>
-      <link>http://github.com/ian08005454/ASCDC_intern/categories/artificial-intelligence/</link>
+      <link>ian08005454.github.io/ASCDC_intern/categories/artificial-intelligence/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>http://github.com/ian08005454/ASCDC_intern/categories/artificial-intelligence/</guid>
+      <guid>ian08005454.github.io/ASCDC_intern/categories/artificial-intelligence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Company News</title>
-      <link>http://github.com/ian08005454/ASCDC_intern/categories/company-news/</link>
+      <link>ian08005454.github.io/ASCDC_intern/categories/company-news/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>http://github.com/ian08005454/ASCDC_intern/categories/company-news/</guid>
+      <guid>ian08005454.github.io/ASCDC_intern/categories/company-news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Legacy Support</title>
-      <link>http://github.com/ian08005454/ASCDC_intern/categories/legacy-support/</link>
+      <link>ian08005454.github.io/ASCDC_intern/categories/legacy-support/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>http://github.com/ian08005454/ASCDC_intern/categories/legacy-support/</guid>
+      <guid>ian08005454.github.io/ASCDC_intern/categories/legacy-support/</guid>
       <description></description>
     </item>
     
