@@ -47,7 +47,7 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 
 # main menu
 [[menu.main]]
-name = "公司環境"
+name = "數位人文平台介紹"
 URL = "about"
 weight = 1
 
@@ -82,7 +82,7 @@ URL = "#"
 weight = 1
 
 [[menu.footer]]
-name = "公司環境"
+name = "數位人文平台介紹"
 URL = "about"
 weight = 2
 
