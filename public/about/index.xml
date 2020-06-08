@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>數位人文平台介紹 on 中央研究院實習成果</title>
-    <link>ian08005454.github.io/ASCDC_intern/about/</link>
+    <link>https://ian08005454.github.io/ASCDC_intern/about/</link>
     <description>Recent content in 數位人文平台介紹 on 中央研究院實習成果</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copyright &amp;copy; 2020 [中央研究院數位文化中心](https://ascdc.sinica.edu.tw/) All Rights Reserved</copyright>
     
-	<atom:link href="ian08005454.github.io/ASCDC_intern/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ian08005454.github.io/ASCDC_intern/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

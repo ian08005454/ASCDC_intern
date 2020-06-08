@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "ian08005454.github.io/ASCDC_intern/"
+baseURL = "https://ian08005454.github.io/ASCDC_intern/"
 title = "中央研究院實習成果"
 theme = "airspace-hugo"
 # post pagination
