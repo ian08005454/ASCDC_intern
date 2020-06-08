@@ -13,7 +13,7 @@ type: "post"
 
 # 軟體介紹
 為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，且運用一些網站上的範本可能會遇到一些奇怪的bug，但通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。
-![](https://ian08005454.github.io/ASCDC_intern//images/hugo principle.PNG)
+![](https://ian08005454.github.io/ASCDC_intern/images/hugo principle.PNG)
 hugo缺點:
 *當要改他們提供的主題其實會遇到很多問題。
 *主題能提供的相關文件常常不足。
