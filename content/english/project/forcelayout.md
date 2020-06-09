@@ -2,7 +2,7 @@
 title: "社群網路分析"
 description: "視覺化鏈結資料"
 draft: false
-image : "images/echarts.png"
+image : "images/project/echarts.png"
 bg_image: "images/featue-bg.jpg"
 category: "Force layout"
 information:
