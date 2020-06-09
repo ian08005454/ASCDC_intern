@@ -52,7 +52,7 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "成果展示&畫廊"
+name = "成果展示"
 URL = "project"
 weight = 2
 
@@ -87,7 +87,7 @@ URL = "about"
 weight = 2
 
 [[menu.footer]]
-name = "成果展示&畫廊"
+name = "成果展示"
 URL = "project"
 weight = 3
 
