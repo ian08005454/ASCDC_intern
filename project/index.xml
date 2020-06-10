@@ -52,6 +52,17 @@ reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</
     </item>
     
     <item>
+      <title>引導查詢</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/project/%E5%BC%95%E5%B0%8E%E6%9F%A5%E8%A9%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/project/%E5%BC%95%E5%B0%8E%E6%9F%A5%E8%A9%A2/</guid>
+      <description>數位人文平台-引導查詢功能 由於一本文本動輒上萬字，研究者研究一個主題通常又需要閱讀多個文本，花費很多時間和精力。
+引導查詢功能讓使用者可以輸入查詢詞和簡單的資訊後，
+系統會自動尋找查詢詞附近所出現的詞有哪些，和那些詞所出現的頻率。使用者可以勾選出現的結果繼續查詢，從中探索出兩兩相關的詞。</description>
+    </item>
+    
+    <item>
       <title>社群網路分析</title>
       <link>https://ian08005454.github.io/ASCDC_intern/project/forcelayout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -63,6 +74,18 @@ reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</
 然而卻佔據了大半程式碼，因此把搜尋全部重寫了。  我加入的功能和修正的bug   以HSL色域進行產生亂數的顏色
    一開始還不了解程式碼，因此開始研究應該要如何不讓隨機跑出來的顏色長的接近的問題，但因不清楚怎麼從十六進位碼看出甚麼顏色是接近或是太黑或太亮，後來發現有一種顏色規範(HSL)(如圖11)是把顏色空間定義為一個圓柱體，那只要是在360度中不要太接近就不太會一樣，如果每種顏色差6度就有60個不會重複的顏色。如果切2層或3層就可以達到120~180個絕對不重複的顏色了。
 接下來就開始and 和 or的搜尋了，發現到or搜尋的原理其實與單一搜尋的概念很像，細看後發現單層搜尋和多層搜尋也很像，就把全部都整合在同一種搜尋裡，接著是and的搜尋，他其實就像是兩點之間連線的意思，當時學姊給了一個老鼠迷宮改版的路線算法，了解其原理後實做出來了，但因為有時候使用者不一定會知道哪兩點是在端點，因此後來在前面加入判斷端點的搜尋，這樣順序不同也都能跑出對結果。</description>
+    </item>
+    
+    <item>
+      <title>間距查詢</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/project/%E9%96%93%E8%B7%9D%E6%9F%A5%E8%A9%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/project/%E9%96%93%E8%B7%9D%E6%9F%A5%E8%A9%A2/</guid>
+      <description>數位人文平台-間距查詢功能 間距查詢是接續引導查詢後的功能，使用者可以從引導功能接續，
+也可以直接操作間距查詢的介面。
+使用者可以輸入一組查詢詞組和一些必要的資訊。
+系統會尋找查詢詞組前面、中間、後面所出現的詞和詞頻。</description>
     </item>
     
   </channel>
