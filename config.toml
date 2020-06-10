@@ -124,6 +124,10 @@ multi_author = false
       hardWraps = true
       unsafe = true
       xhtml = true
+    [markup.tableOfContents]
+      endLevel = 3
+      ordered = false
+      startLevel = 2
  
 # Preloader
 [params.preloader]

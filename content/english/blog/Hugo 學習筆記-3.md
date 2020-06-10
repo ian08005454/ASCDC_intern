@@ -10,7 +10,16 @@ description: "快速產生出靜態網頁的工具"
 draft: false
 type: "post"
 ---
+Name    | Age
+--------|------
+Bob     | 27
+Alice   | 23
 
+|環境| Hugo | Markdown | HackMD |  
+| -----| -------- | -------- | -------- |   
+| HTML語法 | 不支援，需搭配Shortcodes | 支持直接寫入 | 支持直接寫入 |  
+| 換行 | 後面加兩個空白 | 後面加兩個空白 | 直接enter |    
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/hugo%20principle.PNG" width="100%" height="100%" /><br>Picture 1. hugo principle</center>
 # **軟體介紹**:
 ---
 為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，且運用一些網站上的範本可能會遇到一些奇怪的bug，通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。

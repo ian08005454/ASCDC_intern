@@ -17,11 +17,11 @@ type: "post"
 ## 注意事項  
 但在看這些文章前要注意一些事情，hugo與一般Markdown語法有點不同  
 {{< rawhtml >}}
-  <center><img src="https://ian08005454.github.io/ASCDC_intern/images/blog/Table.PNG" width="100%" height="100%" /><br>Picture 1. Markdown Table</center>
+  <center><img src="https://ian08005454.github.io/ASCDC_intern/images/blog/HugoTable.PNG" width="100%" height="100%" /><br>Picture 1. Markdown Table</center>
 {{< /rawhtml >}}
 
 由於 Markdown 語法的加入圖片不能調整大小，因此建議使用HTML語法。  
-## 如何使用及加入 Shortcodes
+## 如何使用及加入 Shortcodes: #
 如果只是要使用HTML的語法則可以參考[Simple Shortcode to Insert Raw HTML in Hugo](https://anaulin.org/blog/hugo-raw-html-shortcode/)這篇的作法。  
 實作如下:  
 在網站目錄的`\layouts`加入`shortcodes`資料夾  
@@ -30,20 +30,39 @@ type: "post"
 <!-- raw html -->
 {{.Inner}}
 ```
-使用方式:
-```html
-
-```
 但其實hugo一開始就加入了一些Shortcodes進去，詳情可以參考[Shortcodes](https://gohugo.io/content-management/shortcodes/)。
 常用的有:
 {{< rawhtml >}}
-  <center><img src="https://ian08005454.github.io/ASCDC_intern/images/blog/code.PNG" width="100%" height="100%" /><br></center>
+  <center><img src="https://ian08005454.github.io/ASCDC_intern/images/blog/codeEX.PNG" width="100%" height="100%" /><br></center>
 {{< /rawhtml >}}  
 
 * ref 和 relref -  look up the pages by their relative path
-``` 
-[Neat]({{< ref "" >}})
-[Who]({{< relref "" >}})
+  <center><img src="https://ian08005454.github.io/ASCDC_intern/images/blog/ref.PNG" width="100%" height="100%" /><br></center>
+## config.toml 設定，可以請用擴充語法
+``` toml
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xhtml = true
+    [markup.tableOfContents]
+      endLevel = 3
+      ordered = false
+      startLevel = 2
 ```
 ## **參考資料:** ##
 ---
