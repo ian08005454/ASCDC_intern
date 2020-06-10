@@ -139,30 +139,36 @@
 						<img class="img-responsive" src="https://ian08005454.github.io/ASCDC_intern/images/blog/hugo.png" alt="Hugo 學習筆記(一) - 安裝">
 					</div>
 					<div class="post-content post-excerpt">
-						<h1 id="軟體介紹"><strong>軟體介紹</strong>:</h1>
-<hr>
+						<h2 id="軟體介紹-"><strong>軟體介紹</strong>:</h2>
+<hr />
 <p>為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，有時一些網站上的範本可能會遇到一些奇怪的bug，通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。</p>
-<!-- raw HTML omitted -->
+<h3 id="以下實作環境為windows-因相關資源稀少特別留下紀錄">以下實作環境為windows 因相關資源稀少，特別留下紀錄</h3>
+<!-- <figure>
+    <img src="https://ian08005454.github.io/ASCDC_intern/images/hugo%20principle.PNG" width="75%" height="75%"/> <figcaption>
+            <h4>hugo principle</h4>
+        </figcaption>
+</figure>
+ -->
 
 
   <center><img src="https://ian08005454.github.io/ASCDC_intern/images/blog/hugo_principle.PNG" width="100%" height="100%" /><br>Picture 1. hugo principle</center>
 
-<h5 id="hugo缺點">hugo缺點:</h5>
+<h5 id="hugo缺點-">hugo缺點:</h5>
 <ul>
 <li>當要改他們提供的主題其實會遇到很多問題。</li>
 <li>主題能提供的相關文件常常不足。</li>
 <li>說明文件量太多，但使用者偏少，又以英文居多，其實要完全了解這套軟體是有門檻。</li>
 <li>有時會遇到奇怪的bug。</li>
 </ul>
-<h5 id="hugo優點">hugo優點:</h5>
+<h5 id="hugo優點-">hugo優點:</h5>
 <ul>
 <li>Markdown的編輯功能非常方便，要更改圖片也非常方便</li>
 <li>很多重複的部分都會自動處理好，還會自動產生必須的網頁出來</li>
 <li>如果熟悉後網頁能快速方便的產生出來</li>
 </ul>
-<h1 id="使用方式"><strong>使用方式</strong>:</h1>
-<hr>
-<h2 id="前置動作">前置動作</h2>
+<h2 id="使用方式-"><strong>使用方式</strong>:</h2>
+<hr />
+<h3 id="前置動作-">前置動作</h3>
 <p>先去<a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>抓後面為Windows-64bit.zip的檔案</p>
 <ol>
 <li>解壓縮後放在<code>C:\hugo</code>裡</li>
@@ -172,20 +178,20 @@
 <li>點選新增</li>
 <li>填入 <code>C:\hugo</code></li>
 </ol>
-<h2 id="建立網頁">建立網頁</h2>
+<h3 id="建立網頁-">建立網頁</h3>
 <ol>
 <li>在 CMD 填入</li>
 </ol>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd"><span style="color:#66d9ef">cd</span> /hugo
 hugo new site &lt;網站名稱&gt;
 <span style="color:#66d9ef">cd</span> &lt;網站名稱&gt;
-</code></pre></div><h2 id="安裝部落格主題">安裝部落格主題</h2>
-<p>主題可以去<a href="https://themes.gohugo.io/">官網主題</a>找到想要的主題，裡面會說明如何使用。<!-- raw HTML omitted -->
+</code></pre></div><h2 id="安裝部落格主題-">安裝部落格主題</h2>
+<p>主題可以去<a href="https://themes.gohugo.io/">官網主題</a>找到想要的主題，裡面會說明如何使用。<br />
 通常會用git 把Theme抓到 你的目錄底下的theme資料夾，語法如下，實際上還是要按照說明文件做，因為不確定資料夾結構。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">git clone git@github.com:themefisher/academia-hugo.git
 </code></pre></div><p>或</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">git submodule add https://github.com/onweru/hugo-swift-theme.git themes/hugo-swift-theme
-</code></pre></div><p>通常會建議去把主題資料夾底下的<code>exampleSite</code>的資料夾內容都複製到網站的根目錄，然後再去細看<code>config.toml</code> 或是 <code>config.yml</code>(fromt = yaml)，大部分的設定都是在這裡修改的。
+</code></pre></div><p>通常會建議去把主題資料夾底下的<code>exampleSite</code>的資料夾內容都複製到網站的根目錄，然後再去細看<code>config.toml</code> 或是 <code>config.yml</code>(fromt = yaml)，大部分的設定都是在這裡修改的。<br />
 <code>toml</code>的主要參數大概如下，需要注意的是<code>.yml</code>是靠排版處理父子關係的。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#75715e"># 要放的伺服器網址</span>
 <span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;https://ian08005454.github.io/ASCDC_intern/&#34;</span>
@@ -197,8 +203,8 @@ hugo new site &lt;網站名稱&gt;
 <span style="color:#a6e22e">paginate</span> = <span style="color:#e6db74">&#34;4&#34;</span>
 <span style="color:#75715e">#有時CSS會跑不出來，要加這個 ，不加預設為false</span>
 <span style="color:#a6e22e">canonifyurls</span> = <span style="color:#66d9ef">true</span>
-</code></pre></div><h2 id="建立新文章">建立新文章</h2>
-<p>在建立文章之前可以考慮一下在<code>archetypes</code>資料夾中的<code>default.md</code>定義一下版型會比較方便</p>
+</code></pre></div><h2 id="建立文章範本-">建立文章範本</h2>
+<p>在建立文章之前可以考慮一下在<code>archetypes</code>資料夾中的<code>default.md</code>定義一下版型會比較方便。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">title: &#34;{{ replace .Name &#34;-&#34; &#34; &#34; | title }}&#34;
 date: {{ .Date }}
 author: &#34;&#34;
@@ -209,18 +215,18 @@ tags: [&#34;client side&#34;,&#34;Javascript&#34;]
 description: &#34;&#34;
 type: &#34;post&#34;
 draft: true
-</code></pre></div><p>建立新的文章:</p>
+</code></pre></div><h2 id="建立新的文章-">建立新的文章:</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">hugo new posts/&lt;文章名稱&gt;.md
-</code></pre></div><h2 id="啟動預覽">啟動預覽:</h2>
+</code></pre></div><h2 id="啟動預覽-">啟動預覽:</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">hugo server # 如果沒在config.toml 中的theme給值就必須加入 -t &lt;theme name&gt;
-</code></pre></div><h2 id="產生靜態網頁">產生靜態網頁:</h2>
+</code></pre></div><h2 id="產生靜態網頁-">產生靜態網頁:</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">hugo # 如果沒在config.toml 中的theme給值就必須加入 -t &lt;theme name&gt;
-</code></pre></div><h1 id="參考資料"><strong>參考資料:</strong></h1>
-<hr>
-<p><a href="https://coolgood88142.github.io/zh-tw/posts/hugo/">Hugo教學：部落格網站</a></p>
-<p><a href="https://anaulin.org/blog/hugo-raw-html-shortcode/">Simple Shortcode to Insert Raw HTML in Hugo</a></p>
-<p><a href="https://gohugo.io/">hugo 文檔</a></p>
-<p><a href="https://www.gohugo.org/doc/tutorials/github-pages-blog/">hugo on github</a></p>
+</code></pre></div><h2 id="參考資料-"><strong>參考資料:</strong></h2>
+<hr />
+<p><a href="https://coolgood88142.github.io/zh-tw/posts/hugo/">Hugo教學：部落格網站</a><br />
+<a href="https://anaulin.org/blog/hugo-raw-html-shortcode/">Simple Shortcode to Insert Raw HTML in Hugo</a><br />
+<a href="https://gohugo.io/">hugo 文檔</a><br />
+<a href="https://www.gohugo.org/doc/tutorials/github-pages-blog/">hugo on github</a></p>
 
 					</div>
 					<div class="post-comments">
@@ -238,7 +244,8 @@ draft: true
       </a>
       <div class="media-body">
         <h4 class="media-heading"><a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-2/">Hugo 學習筆記(二) - Markdown文章</a></h4>
-        <p>軟體介紹:  為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原 …</p>
+        <p>上一篇把hugo安裝完後，要來說說在hugo編輯markdown語法的注意事項，還有常用語法。
+還沒 …</p>
       </div>
     </div>
     
@@ -248,7 +255,7 @@ draft: true
       </a>
       <div class="media-body">
         <h4 class="media-heading"><a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-1/">Hugo 學習筆記(一) - 安裝</a></h4>
-        <p>軟體介紹:  為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原 …</p>
+        <p>軟體介紹: 為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理 …</p>
       </div>
     </div>
     
@@ -258,7 +265,7 @@ draft: true
       </a>
       <div class="media-body">
         <h4 class="media-heading"><a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/">Hugo 學習筆記(三) - 主題修改</a></h4>
-        <p>軟體介紹:  為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原 …</p>
+        <p>軟體介紹: 為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理 …</p>
       </div>
     </div>
     

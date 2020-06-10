@@ -11,8 +11,6 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
 canonifyurls = true
-
-
 #################################### Plugins ##############################
 
 # CSS Plugins
@@ -107,6 +105,26 @@ google_analitycs_id = "" # Your ID# search
 # multi-author support (if set to true, you must use an Array in the author field)
 multi_author = false
 
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xhtml = true
+ 
 # Preloader
 [params.preloader]
 enable = true
@@ -133,4 +151,6 @@ copyright ="Copyright &copy; 2020 [中央研究院數位文化中心](https://as
     baseName = "index"
     isPlainText = true
     isHTML = true
+
+
     
