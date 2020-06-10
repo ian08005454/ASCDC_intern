@@ -52,18 +52,18 @@ service:
     - icon : ion-ios-book #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: "圖書館"
       link: https://ian08005454.github.io/ASCDC_intern/images/圖書館2.jpg
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "不同研究所有獨立的圖書館與各領域的專業圖書，藏書豐富。圖書館建築也因年代不同，呈現多樣的建築歷史足跡。"
 
     # service item loop
     - icon : ion-ios-medkit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: 醫務室
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      name: "[醫務室](https://dga.sinica.edu.tw/posts/78878)"
+      content: "照顧每位中研院同仁的健康，也保證體育館的貴賓運動的安全，在同仁需要時提供協助"
 
     # service item loop
-    - icon : ion-bag #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-cart #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: 員工消費合作社
       link: http://welfare.club.sinica.edu.tw/images/news/fan.jpg
-      content: "甚麼都賣甚麼都有，物美價廉又實在"
+      content: "甚麼都有甚麼都賣，物美價廉又實在，茶葉、雜貨店一直有營業，常常有神秘店家出現"
 
     # service item loop
     - icon : ion-ios-basketball #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
@@ -72,10 +72,20 @@ service:
       content: "為促進員工身心健康，提供完善休閒運動環境，設置「綜合體育館」，並開放院區鄰近之里民、機關學校團體之體育活動。"
 
     # service item loop
-    - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-spoon #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: 中研市場
       link: https://ian08005454.github.io/ASCDC_intern/images/中研市場.jpg
       content: "有許多小吃店(牛肉麵、水餃、日式、泰式、中式…等等)，吃一輪差不多需要半個月的時間，每間CP值都很高"
+     # service item loop
+    - icon : ion-social-instagram-outline #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: "[中研院私房景點！](https://research.sinica.edu.tw/instagram-photo-academia-sinica-wonderland/)"
+      content: "中研院最美的風景！各位知青文青、網紅網帥，來踩點中研院秘境，在這些景點打卡打出新質感～"
+      # service item loop
+    - icon : ion-ios-bookmarks #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: 四分溪書訪
+      link: https://ian08005454.github.io/ASCDC_intern/images/四分溪書訪.jpg
+      content: "中央研究院內小而美的書店，藏有專業的文史書，環境舒適安靜。"
+
 
       
 ############################# call to action #################################
