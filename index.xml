@@ -18,8 +18,12 @@
       <pubDate>Tue, 09 Jun 2020 21:42:30 +0800</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-2/</guid>
-      <description>軟體介紹:  為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，且運用一些網站上的範本可能會遇到一些奇怪的bug，通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。
-Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會遇到很多問題。 主題能提供的相關文件常常不足。 說明文件量太多，但使用者偏少，又以英文居多，其實要完全了解這套軟體是有門檻。 有時會遇到奇怪的bug。  hugo優點:  Markdown的編輯功能非常方便，要更改圖片也非常方便 很多重複的部分都會自動處理好，還會自動產生必須的網頁出來 如果熟悉後網頁能快速方便的產生出來  使用方式:  前置動作 先去Hugo Releases抓後面為Windows-64bit.</description>
+      <description>上一篇把hugo安裝完後，要來說說在hugo編輯markdown語法的注意事項，還有常用語法。
+還沒看得往這走:Hugo 學習筆記-1
+常用markdown語法 常用的語法可以參考HackMD、3分鐘學會Markdown常用語法、Markdown文件。
+注意事項 但在看這些文章前要注意一些事情，hugo與一般Markdown語法有點不同
+Picture 1. Markdown Table由於 Markdown 語法的加入圖片不能調整大小，因此建議使用HTML語法。
+如何使用及加入 Shortcodes 如果只是要使用HTML的語法則可以參考Simple Shortcode to Insert Raw HTML in Hugo這篇的作法。</description>
     </item>
     
     <item>
@@ -28,8 +32,8 @@ Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會�
       <pubDate>Sun, 07 Jun 2020 15:33:30 +0800</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-1/</guid>
-      <description>軟體介紹:  為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，有時一些網站上的範本可能會遇到一些奇怪的bug，通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。
-Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會遇到很多問題。 主題能提供的相關文件常常不足。 說明文件量太多，但使用者偏少，又以英文居多，其實要完全了解這套軟體是有門檻。 有時會遇到奇怪的bug。  hugo優點:  Markdown的編輯功能非常方便，要更改圖片也非常方便 很多重複的部分都會自動處理好，還會自動產生必須的網頁出來 如果熟悉後網頁能快速方便的產生出來  使用方式:  前置動作 先去Hugo Releases抓後面為Windows-64bit.</description>
+      <description>軟體介紹: 為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，有時一些網站上的範本可能會遇到一些奇怪的bug，通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。
+以下實作環境為windows 因相關資源稀少，特別留下紀錄  hugo principle   --Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會遇到很多問題。 主題能提供的相關文件常常不足。 說明文件量太多，但使用者偏少，又以英文居多，其實要完全了解這套軟體是有門檻。 有時會遇到奇怪的bug。  hugo優點:  Markdown的編輯功能非常方便，要更改圖片也非常方便 很多重複的部分都會自動處理好，還會自動產生必須的網頁出來 如果熟悉後網頁能快速方便的產生出來  使用方式: 前置動作 先去Hugo Releases抓後面為Windows-64bit.</description>
     </item>
     
     <item>
@@ -38,8 +42,8 @@ Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會�
       <pubDate>Sun, 07 Jun 2020 15:33:30 +0800</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/</guid>
-      <description>軟體介紹:  為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，且運用一些網站上的範本可能會遇到一些奇怪的bug，通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。
-Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會遇到很多問題。 主題能提供的相關文件常常不足。 說明文件量太多，但使用者偏少，又以英文居多，其實要完全了解這套軟體是有門檻。 有時會遇到奇怪的bug。  hugo優點:  Markdown的編輯功能非常方便，要更改圖片也非常方便 很多重複的部分都會自動處理好，還會自動產生必須的網頁出來 如果熟悉後網頁能快速方便的產生出來  使用方式:  前置動作 先去Hugo Releases抓後面為Windows-64bit.</description>
+      <description>軟體介紹: 為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，且運用一些網站上的範本可能會遇到一些奇怪的bug，通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。
+ hugo principle   --Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會遇到很多問題。 主題能提供的相關文件常常不足。 說明文件量太多，但使用者偏少，又以英文居多，其實要完全了解這套軟體是有門檻。 有時會遇到奇怪的bug。  hugo優點:  Markdown的編輯功能非常方便，要更改圖片也非常方便 很多重複的部分都會自動處理好，還會自動產生必須的網頁出來 如果熟悉後網頁能快速方便的產生出來  使用方式: 前置動作 先去Hugo Releases抓後面為Windows-64bit.</description>
     </item>
     
     <item>
@@ -57,7 +61,8 @@ Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/project/jsdoc/</guid>
-      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
+reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
     </item>
     
     <item>
@@ -66,7 +71,8 @@ Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/project/rio-furniture-4/</guid>
-      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
+reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
     </item>
     
     <item>
@@ -75,7 +81,8 @@ Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/project/rio-furniture-5/</guid>
-      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
+reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
     </item>
     
     <item>
@@ -84,7 +91,8 @@ Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/project/rio-furniture-6/</guid>
-      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
+      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
+reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
     </item>
     
     <item>
@@ -102,7 +110,8 @@ Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/project/forcelayout/</guid>
-      <description>古籍人物關係視覺化 這是 此圖是用來顯示，搜尋的結果
+      <description>古籍人物關係視覺化 這是
+此圖是用來顯示，搜尋的結果
 /static/images</description>
     </item>
     
