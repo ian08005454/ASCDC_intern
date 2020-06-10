@@ -44,43 +44,39 @@ service:
   service_item:
     # service item loop
     - icon : ion-coffee #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: "[餐廳](https://ionicons.com/v2/)"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      name: "餐飲服務-微風美饌"
+      link: https://dga.sinica.edu.tw/uploads/website/18/editor/files/123.jpg
+      content: "由微風廣場集團進駐提供餐飲服務，引進多家高人氣餐飲，提供本院員工及鄰近居民有更多用餐選擇。"
 
     # service item loop
     - icon : ion-ios-book #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: 圖書館
+      name: "圖書館"
+      link: https://ian08005454.github.io/ASCDC_intern/images/圖書館2.jpg
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : ion-image #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: App Design
+    - icon : ion-ios-medkit #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: 醫務室
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Start Up
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : ion-bag #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: 員工消費合作社
+      link: http://welfare.club.sinica.edu.tw/images/news/fan.jpg
+      content: "甚麼都賣甚麼都有，物美價廉又實在"
 
     # service item loop
-    - icon : ion-headphone #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Logo Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : ion-ios-basketball #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: 綜合體育館
+      link: https://ian08005454.github.io/ASCDC_intern/images/體育館.jpg
+      content: "為促進員工身心健康，提供完善休閒運動環境，設置「綜合體育館」，並開放院區鄰近之里民、機關學校團體之體育活動。"
 
     # service item loop
     - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Development
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      name: 中研市場
+      link: https://ian08005454.github.io/ASCDC_intern/images/中研市場.jpg
+      content: "有許多小吃店(牛肉麵、水餃、日式、泰式、中式…等等)，吃一輪差不多需要半個月的時間，每間CP值都很高"
 
-    # service item loop
-    - icon : ion-planet #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-
-    # service item loop
-    - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
       
 ############################# call to action #################################
 cta:

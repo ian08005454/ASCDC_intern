@@ -13,7 +13,7 @@
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <i class="icon {{ .icon }}"></i>
-          <h4>{{ .name | markdownify }}</h4>
+          <h4><a href="{{ .link }}" class="portfolio-popup">{{ .name | markdownify }}</h4></a>
           <p>{{ .content | markdownify }}</p>
         </div>
       </div>
