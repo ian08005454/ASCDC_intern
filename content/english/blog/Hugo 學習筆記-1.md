@@ -4,8 +4,8 @@ date: 2020-06-07T15:33:30+08:00
 author: 李韋杰
 image : "images/blog/hugo.png"
 bg_image: "images/blog/hugo-bg.jpg"
-categories: ["Web"]
-tags: ["client side","hugo","markdown","git","go"]
+categories: ["網頁"]
+tags: ["前端","hugo","markdown","git","go"]
 description: "快速產生出靜態網頁的工具"
 draft: false
 type: "post"
