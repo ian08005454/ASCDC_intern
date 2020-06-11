@@ -7,10 +7,50 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copyright &amp;copy; 2020 [中央研究院數位文化中心](https://ascdc.sinica.edu.tw/) All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 09 Jun 2020 21:42:30 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 09:50:30 +0800</lastBuildDate>
     
 	<atom:link href="https://ian08005454.github.io/ASCDC_intern/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用到的平台與開發環境</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/blog/%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84%E5%B9%B3%E5%8F%B0%E8%88%87%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/</link>
+      <pubDate>Thu, 11 Jun 2020 09:50:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/blog/%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84%E5%B9%B3%E5%8F%B0%E8%88%87%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/</guid>
+      <description>Solr Figure 1. Aapche Solr Solr是一個企業級搜尋引擎，底層使用Apache Luence開發。Solr是一個NoSQL的技術，在資料儲存的時候，不需要馬上就設計出符合所有情形的框架。Solr有彈性的綱目設計(Flexible schema)，因此每一筆資料不一定有相同的屬性，有需要的時候再添加欄位就可以了。
+Solr有全文檢索功能，設定好資料欄位的型態(Field-Type)之後，Solr會自動建立索引，以後就可以下查詢語法快速取得必要的資料。
+實作方面，學習到使用Java控制Solr進行CRUD。
+Tomcat Figure 2. Tomca Tomcat是一個Servlet容器，可以把HTML的東西轉換成Java物件，傳送請求到後端，再傳送回應給前端使用者。
+Intellij Figure 3. intellij 工作中使用到Java語言，因此選擇評價很好的Java整合式開發環境Intellij。Intellij的優點在於整合了Java開發會用到的工具，運行的速度快。也有許多貼心的提示和修正建議，很容易就上手。</description>
+    </item>
+    
+    <item>
+      <title>斷詞系統學習筆記</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/blog/%E6%96%B7%E8%A9%9E%E7%B3%BB%E7%B5%B1%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</link>
+      <pubDate>Thu, 11 Jun 2020 09:50:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/blog/%E6%96%B7%E8%A9%9E%E7%B3%BB%E7%B5%B1%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</guid>
+      <description>實習期間參與到的是與自然語言處理(NLP)有關的專案。因一開始的時候先學習使用三個的斷詞引擎，分別為CKIP、Jieba、Stanford。
+CKIP CKIP是中研院資訊所開發的斷詞引擎，是第一個具備未知詞偵測與句法詞類預測能力的中文分詞系統。在繁體中文斷詞具有主導地位。
+Figure 1. CKIP斷詞結果 Jieba Jieba也是一個開源的斷詞系統，其原始碼可以在GitHub找到。Jieba的優點是速度快，並且替換字典檔容易。不過字典檔對於Jieba就顯得更為重要，如果遇到沒有在字典檔中的詞，斷詞結果就不會有詞性標註。
+下圖紅色框框是詞性標註的欄位
+Figure 2. Jieba斷詞結果 Stanford Stanford對於中英文斷詞有各自的套件可以下載。練習的時候是針對英文文本斷詞。英文斷詞相對中文來說較為單純，比較不會有歧異字的問題，所以斷詞的結果也比較精確。
+Figure 3. Stanford斷詞結果 參考資料  https://ckip.iis.sinica.edu.tw/demo/ https://github.</description>
+    </item>
+    
+    <item>
+      <title>Hugo 學習筆記(三) - 主題修改</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/</link>
+      <pubDate>Wed, 10 Jun 2020 12:30:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/</guid>
+      <description>在編輯過程中一定會發現有些主題的某些地方實在不適合運用，因此想要做細部調整。
+然而這個方法需要了解依些基礎的go語法以及html、css。
+通常可以從yml檔的名字可以對照出html的名字，而html通常位於\themes\&amp;lt;主題名稱&amp;gt;\layouts裡 ，
+參考資料: hugo 文檔
+hugo on github</description>
+    </item>
     
     <item>
       <title>Hugo 學習筆記(二) - Markdown文章</title>
@@ -38,33 +78,11 @@ Picture 1. Markdown Table由於 Markdown 語法的加入圖片不能調整大�
     
     <item>
       <title>Hugo 學習筆記(三) - 主題修改</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/</link>
-      <pubDate>Sun, 07 Jun 2020 15:33:30 +0800</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/</guid>
-      <description>Name Age     Bob 27   Alice 23       環境 Hugo Markdown HackMD     HTML語法 不支援，需搭配Shortcodes 支持直接寫入 支持直接寫入   換行 後面加兩個空白 後面加兩個空白 直接enter    Picture 1.</description>
-    </item>
-    
-    <item>
-      <title>Hugo 學習筆記(三) - 主題修改</title>
       <link>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-4/</link>
       <pubDate>Sun, 07 Jun 2020 15:33:30 +0800</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-4/</guid>
       <description>Name Age     Bob 27   Alice 23       環境 Hugo Markdown HackMD     HTML語法 不支援，需搭配Shortcodes 支持直接寫入 支持直接寫入   換行 後面加兩個空白 後面加兩個空白 直接enter    Picture 1.</description>
-    </item>
-    
-    <item>
-      <title>使用到的平台與開發環境</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/blog/%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84%E5%B9%B3%E5%8F%B0%E8%88%87%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/blog/%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84%E5%B9%B3%E5%8F%B0%E8%88%87%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/</guid>
-      <description>Solr Figure 1. Aapche Solr Solr是一個企業級搜尋引擎，底層使用Apache Luence開發。Solr是一個NoSQL的技術，在資料儲存的時候，不需要馬上就設計出符合所有情形的框架。Solr有彈性的綱目設計(Flexible schema)，因此每一筆資料不一定有相同的屬性，有需要的時候再添加欄位就可以了。
-Solr有全文檢索功能，設定好資料欄位的型態(Field-Type)之後，Solr會自動建立索引，以後就可以下查詢語法快速取得必要的資料。
-實作方面，學習到使用Java控制Solr進行CRUD。
-Tomcat Figure 2. Tomca Tomcat是一個Servlet容器，可以把HTML的東西轉換成Java物件，傳送請求到後端，再傳送回應給前端使用者。
-Intellij Figure 3. intellij 工作中使用到Java語言，因此選擇評價很好的Java整合式開發環境Intellij。Intellij的優點在於整合了Java開發會用到的工具，運行的速度快。也有許多貼心的提示和修正建議，很容易就上手。</description>
     </item>
     
     <item>
@@ -96,20 +114,6 @@ HSL顏色規範是把顏色空間定義為一個圓柱體，那只要是在360�
     </item>
     
     <item>
-      <title>斷詞系統學習筆記</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/blog/%E6%96%B7%E8%A9%9E%E7%B3%BB%E7%B5%B1%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/blog/%E6%96%B7%E8%A9%9E%E7%B3%BB%E7%B5%B1%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</guid>
-      <description>實習期間參與到的是與自然語言處理(NLP)有關的專案。因一開始的時候先學習使用三個的斷詞引擎，分別為CKIP、Jieba、Stanford。
-CKIP CKIP是中研院資訊所開發的斷詞引擎，是第一個具備未知詞偵測與句法詞類預測能力的中文分詞系統。在繁體中文斷詞具有主導地位。
-Figure 1. CKIP斷詞結果 Jieba Jieba也是一個開源的斷詞系統，其原始碼可以在GitHub找到。Jieba的優點是速度快，並且替換字典檔容易。不過字典檔對於Jieba就顯得更為重要，如果遇到沒有在字典檔中的詞，斷詞結果就不會有詞性標註。
-下圖紅色框框是詞性標註的欄位
-Figure 2. Jieba斷詞結果 Stanford Stanford對於中英文斷詞有各自的套件可以下載。練習的時候是針對英文文本斷詞。英文斷詞相對中文來說較為單純，比較不會有歧異字的問題，所以斷詞的結果也比較精確。
-Figure 3. Stanford斷詞結果 參考資料  https://ckip.iis.sinica.edu.tw/demo/ https://github.</description>
-    </item>
-    
-    <item>
       <title>李彥瑾</title>
       <link>https://ian08005454.github.io/ASCDC_intern/author/%E6%9D%8E%E5%BD%A5%E7%91%BE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -137,8 +141,8 @@ Figure 3. Stanford斷詞結果 參考資料  https://ckip.iis.sinica.edu.tw/demo
 我的部分 在實習中參與開發新版的間距查詢，相較舊版多了詞性標註和斷詞功能使用者除了可以依照查詢詞組合找到其他的相關詞和詞頻，也可以純粹用詞性或是用詞搭配詞性來查找。
 舊版間距查詢 下圖是舊版的間距查詢，使用者可以輸入查兩個查詢詞(或稱詞夾)，然後勾選想要尋找前綴(第1夾)、中間(第2夾)、後綴(第3夾)分別要多少詞作統計，選擇完畢後按下查詢。
 Figure 1. 舊版間距查詢-使用者輸入介面 舊版的間距查詢就會依照使用者輸入的查詢詞、夾數，統計出結果來。結果包含找到的詞和該詞出現的頻率。
-Figure 1. 舊版間距查詢-查詢結果 新版間距查詢 Figure 1. 數位人文平臺操作介面 新版的間距查詢增加的功能有:
- 讓使用者輸入兩個以上的查詢詞 多了詞性的搭配 一個查詢詞中可以包含多個詞，如圖中的第 2 查詢詞。  Figure 2.</description>
+Figure 1. 舊版間距查詢-查詢結果 新版間距查詢 新版的間距查詢增加的功能有:
+ 讓使用者輸入兩個以上的查詢詞 多了詞性的搭配 一個查詢詞中可以包含多個詞，如圖中的第 2 查詢詞。  請參考 Figure 2.</description>
     </item>
     
   </channel>

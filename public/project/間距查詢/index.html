@@ -120,6 +120,12 @@
           <h4>Project Details</h4>
           <ul>
             
+            <li><span>開發者 :</span> <strong>李彥瑾</strong></li>
+            
+            <li><span>使用工具 :</span> <strong>CKIP/Jieba斷詞系統/Intellij IDEA</strong></li>
+            
+            <li><span>技能需求 :</span> <strong>Java語言/資料庫/debug能力</strong></li>
+            
           </ul>
         </div>
       </div>
@@ -128,26 +134,33 @@
       <div class="col-md-12">
         <div class="project-content mt-50">
           <h1 id="數位人文平台-間距查詢功能">數位人文平台-間距查詢功能</h1>
-<h4 id="功能介紹">功能介紹</h4>
-<p>間距查詢是接續引導查詢功能，同時也是詞夾子擷取方法(可以參閱引導查詢有關詞夾子的介紹)的實作。間距查詢讓使用者輸入一組查詢詞，可能是文本中很常出現的句子結構，或者是文本中兩個經常出現的人名，系統就會幫忙找出與兩個查詢詞同時出現在文本中的其他詞。</p>
-<h4 id="我的部分">我的部分</h4>
+<h3 id="功能介紹">功能介紹</h3>
+<p>間距查詢是接續引導查詢功能，同時也是詞夾子擷取方法(可以參閱<a href="https://ian08005454.github.io/ASCDC_intern/project/%E5%BC%95%E5%B0%8E%E6%9F%A5%E8%A9%A2/">引導查詢有關詞夾子的介紹</a>)的實作。間距查詢讓使用者輸入一組查詢詞，可能是文本中很常出現的句子結構，或者是文本中兩個經常出現的人名，系統就會幫忙找出與兩個查詢詞同時出現在文本中的其他詞。</p>
+<h3 id="我的部分">我的部分</h3>
 <p>在實習中參與開發新版的間距查詢，相較舊版多了詞性標註和斷詞功能使用者除了可以依照查詢詞組合找到其他的相關詞和詞頻，也可以純粹用詞性或是用詞搭配詞性來查找。</p>
-<h4 id="舊版間距查詢">舊版間距查詢</h4>
-<p>下圖是舊版的間距查詢，使用者可以輸入查兩個查詢詞(或稱詞夾)，然後勾選想要尋找前綴(第1夾)、中間(第2夾)、後綴(第3夾)分別要多少詞作統計，選擇完畢後按下查詢。</p>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/舊版間距查詢input.PNG"  width="100%"  height="100%"  /><br>Figure 1. 舊版間距查詢-使用者輸入介面</center>  
-<p>舊版的間距查詢就會依照使用者輸入的查詢詞、夾數，統計出結果來。結果包含找到的詞和該詞出現的頻率。</p>
+<h3 id="舊版間距查詢">舊版間距查詢</h3>
+<p>下圖是舊版的間距查詢，使用者可以輸入查兩個查詢詞(或稱詞夾)，然後勾選想要尋找前綴(第1夾)、中間(第2夾)、後綴(第3夾)分別要多少詞作統計，選擇完畢後按下查詢。<br />
+<br></p>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/舊版間距查詢input.png"  width="100%"  height="100%"  /><br>Figure 1. 舊版間距查詢-使用者輸入介面</center>
+<br>
+<p>舊版的間距查詢就會依照使用者輸入的查詢詞、夾數，統計出結果來。結果包含找到的詞和該詞出現的頻率。<br />
+<br></p>
 <center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/舊版間距查詢結果.PNG"  width="100%"  height="100%"  /><br>Figure 1. 舊版間距查詢-查詢結果</center>
-<h4 id="新版間距查詢">新版間距查詢</h4>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/projecct2_comeIn_page.png"  width="100%"  height="100%"  /><br>Figure 1. 數位人文平臺操作介面</center>
+<h3 id="新版間距查詢">新版間距查詢</h3>
 <p>新版的間距查詢增加的功能有:</p>
 <ol>
 <li>讓使用者輸入兩個以上的查詢詞</li>
 <li>多了詞性的搭配</li>
 <li>一個查詢詞中可以包含多個詞，如圖中的第 2 查詢詞。</li>
 </ol>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/project2_input.png"  width="100%"  height="100%"  /><br>Figure 2. 新版間距查詢-使用者輸入查詢詞與綴數的介面</center>  
+<p>請參考 Figure 2.</p>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/project2_comeIn_page.png"  width="100%"  height="100%"/><br>Figure 1. 數位人文平臺操作介面</center>
+<br>
+<br>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/project2_input.png"  width="50%"  height="50%"  /><br>Figure 2. 新版間距查詢-使用者輸入查詢詞與綴數的介面</center><br>
 <p>按下查詢後，系統會尋找查詢詞組前面、中間、後面所出現的詞、詞性和詞頻。</p>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/projecct2_result.png"  width="100%"  height="100%"  /><br>Figure 3. 新版間距查詢-使用者輸入查詢詞與綴數的介面</center>
+<br>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/project2_result.png"  width="50%"  height="50%"  /><br>Figure 3. 新版間距查詢-使用者輸入查詢詞與綴數的介面</center>
 
         </div>
       </div>
