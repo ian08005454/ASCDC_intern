@@ -62,7 +62,7 @@ cta:
 funfacts:
   enable : ture
   title : "實習生小趣事"
-  description : "在中研院的實習生所累計的小小趣事"
+  description : "在中研院實習所累積的小小趣事"
   funfact_item:
     # funfacts item loop
     - icon : "ion-ios-calendar-outline" #ionicon pack v2 : https://ionicons.com/v2/

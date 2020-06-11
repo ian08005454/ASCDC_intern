@@ -162,13 +162,13 @@
 				<div class="post">
 					<div class="post-thumb">
 						<a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/">
-							<img class="img-responsive" src="https://ian08005454.github.io/ASCDC_intern/images/blog/hugo.png" alt="Hugo 學習筆記(三) - 主題修改">
+							<img class="img-responsive" src="https://ian08005454.github.io/ASCDC_intern/images/blog/hugo.png" alt="Hugo 學習筆記(三) - host on github">
 						</a>
 					</div>
-					<h3 class="post-title"><a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/">Hugo 學習筆記(三) - 主題修改</a></h3>
+					<h3 class="post-title"><a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/">Hugo 學習筆記(三) - host on github</a></h3>
 					<div class="post-meta">
 						<ul>
-							<li><i class="ion-calendar"></i> June 10, 2020</li>
+							<li><i class="ion-calendar"></i> June 11, 2020</li>
               <li><i class="ion-android-people"></i>
                 Posted By
                 
@@ -181,21 +181,16 @@
 								
                 , <a href="https://ian08005454.github.io/ASCDC_intern/tags/hugo">Hugo</a>
 								
-                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/go">Go</a>
+                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/git">Git</a>
 								
-                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/html">H t m l</a>
-								
-                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/css">C s s</a>
+                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/cmd">C m d</a>
 								
               </li>
 						</ul>
 					</div>
 					<div class="post-content">
-						<p>在編輯過程中一定會發現有些主題的某些地方實在不適合運用，因此想要做細部調整。
-然而這個方法需要了解依些基礎的go語法以及html、css。
-通常可以從yml檔的名字可以對照出html的名字，而html通常位於\themes\&lt;主題名稱&gt;\layouts裡 ，
-參考資料: hugo 文檔
-hugo on github</p>
+						<p>當網頁都完成後就必須找台server host 上去，這裡樣補充的使用是github page。 以下是git上去專案網站的語法，需要把網址改成自己的，且cd到工作目錄:
+# remove, public folder will created later RD /S public $ git add . git commit -m &#39;hugo project init&#39; # push git push -u origin master # Create a new orphand branch (no commit history) named gh-pages git checkout --orphan gh-pages # Unstage all files # -rf themes/hyde git reset # Add and commit that file git add .</p>
 						<a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/" class="btn btn-main">Continue Reading</a>
 					</div>
 				</div>
@@ -277,41 +272,6 @@ Picture 1. Markdown Table由於 Markdown 語法的加入圖片不能調整大�
 						<p>軟體介紹: 為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，有時一些網站上的範本可能會遇到一些奇怪的bug，通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。
 以下實作環境為windows 因相關資源稀少，特別留下紀錄  hugo principle   --Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會遇到很多問題。 主題能提供的相關文件常常不足。 說明文件量太多，但使用者偏少，又以英文居多，其實要完全了解這套軟體是有門檻。 有時會遇到奇怪的bug。  hugo優點:  Markdown的編輯功能非常方便，要更改圖片也非常方便 很多重複的部分都會自動處理好，還會自動產生必須的網頁出來 如果熟悉後網頁能快速方便的產生出來  使用方式: 前置動作 先去Hugo Releases抓後面為Windows-64bit.</p>
 						<a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-1/" class="btn btn-main">Continue Reading</a>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-md-6">
-				<div class="post">
-					<div class="post-thumb">
-						<a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-4/">
-							<img class="img-responsive" src="https://ian08005454.github.io/ASCDC_intern/images/blog/hugo.png" alt="Hugo 學習筆記(三) - 主題修改">
-						</a>
-					</div>
-					<h3 class="post-title"><a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-4/">Hugo 學習筆記(三) - 主題修改</a></h3>
-					<div class="post-meta">
-						<ul>
-							<li><i class="ion-calendar"></i> June 7, 2020</li>
-              <li><i class="ion-android-people"></i>
-                Posted By
-                
-                <a class="text-primary" href="https://ian08005454.github.io/ASCDC_intern/author/%E6%9D%8E%E9%9F%8B%E6%9D%B0">李韋杰</a>
-                
-              </li>
-              <li><i class="ion-pricetags"></i> 
-                
-                <a href="https://ian08005454.github.io/ASCDC_intern/tags/%e5%89%8d%e7%ab%af">前端</a>
-								
-                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/hugo">Hugo</a>
-								
-                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/markdown">Markdown</a>
-								
-              </li>
-						</ul>
-					</div>
-					<div class="post-content">
-						<p>Name Age     Bob 27   Alice 23       環境 Hugo Markdown HackMD     HTML語法 不支援，需搭配Shortcodes 支持直接寫入 支持直接寫入   換行 後面加兩個空白 後面加兩個空白 直接enter    Picture 1.</p>
-						<a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-4/" class="btn btn-main">Continue Reading</a>
 					</div>
 				</div>
 			</div>
