@@ -61,27 +61,27 @@ cta:
 ############################# Funfacts ###############################
 funfacts:
   enable : ture
-  title : "中研院小資料"
-  description : "中研院"
+  title : "實習生小趣事"
+  description : "在中研院的實習生所累計的小小趣事"
   funfact_item:
     # funfacts item loop
     - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Cups Of Coffee"
+      name : "due days"
       count : "99"
       
     # funfacts item loop
     - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Article Written"
+      name : "trafic fee"
       count : "45"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Projects Completed"
+      name : "meeting count"
       count : "125"
       
     # funfacts item loop
-    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Combined Projects"
+    - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Lines Of Code"
       count : "200"
 
   testimonial_slider:
@@ -89,7 +89,7 @@ funfacts:
     - name : "fish_eat_ing"
       image : "images/clients/food.jpg"
       designation : "ASCDC-intern"
-      content : "[吃貨推薦附近美食:大食怪食記🍴🍴🚩雲林🚩中壢🚩南港🚩林口追蹤我ㄌ！會每天跟你說好吃的一個不想打程式 想要轉換跑道ㄉ女子](https://www.instagram.com/fish_eat_ing/)"
+      content : "[吃貨推薦附近美食大家來追蹤:</br>大食怪食記🍴🍴🚩雲林🚩中壢🚩南港🚩林口</br>追蹤我ㄌ！會每天跟你說好吃的</br>一個不想打程式 想要轉換跑道ㄉ女子](https://www.instagram.com/fish_eat_ing/)"
     # testimonial item loop
     - name : "fish_eat_ing"
       image : "images/clients/food.jpg"
