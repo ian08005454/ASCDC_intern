@@ -1,55 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Our Project on 中央研究院實習成果</title>
+    <title>成果展示 on 中央研究院實習成果</title>
     <link>https://ian08005454.github.io/ASCDC_intern/project/</link>
-    <description>Recent content in Our Project on 中央研究院實習成果</description>
+    <description>Recent content in 成果展示 on 中央研究院實習成果</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copyright &amp;copy; 2020 [中央研究院數位文化中心](https://ascdc.sinica.edu.tw/) All Rights Reserved</copyright>
     
 	<atom:link href="https://ian08005454.github.io/ASCDC_intern/project/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Rio Furniture</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/project/jsdoc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/project/jsdoc/</guid>
-      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
-reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
-    </item>
-    
-    <item>
-      <title>Rio Furniture</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/project/rio-furniture-4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/project/rio-furniture-4/</guid>
-      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
-reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
-    </item>
-    
-    <item>
-      <title>Rio Furniture</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/project/rio-furniture-5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/project/rio-furniture-5/</guid>
-      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
-reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
-    </item>
-    
-    <item>
-      <title>Rio Furniture</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/project/rio-furniture-6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/project/rio-furniture-6/</guid>
-      <description>Behance Website Redesign Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
-reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</description>
-    </item>
     
     <item>
       <title>引導查詢</title>
@@ -63,17 +23,18 @@ reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas.</
     </item>
     
     <item>
-      <title>社群網路分析</title>
+      <title>數位人文研究平台 - 社群網路分析</title>
       <link>https://ian08005454.github.io/ASCDC_intern/project/forcelayout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/project/forcelayout/</guid>
       <description>社群網路分析視覺化 主要功能是協助中研院內的研究者在研究時能更清楚的察看人物之間的關係遠近，方便研究者進行研究。當時接手的時候已經完成了基本的功能。
 搜尋功能只做了:
- 單一搜尋 兩個搜尋不能刪除 算出兩點之間路徑的功能還有問題
-然而卻佔據了大半程式碼，因此把搜尋全部重寫了。  我加入的功能和修正的bug   以HSL色域進行產生亂數的顏色
-   一開始還不了解程式碼，因此開始研究應該要如何不讓隨機跑出來的顏色長的接近的問題，但因不清楚怎麼從十六進位碼看出甚麼顏色是接近或是太黑或太亮，後來發現有一種顏色規範(HSL)(如圖11)是把顏色空間定義為一個圓柱體，那只要是在360度中不要太接近就不太會一樣，如果每種顏色差6度就有60個不會重複的顏色。如果切2層或3層就可以達到120~180個絕對不重複的顏色了。
-接下來就開始and 和 or的搜尋了，發現到or搜尋的原理其實與單一搜尋的概念很像，細看後發現單層搜尋和多層搜尋也很像，就把全部都整合在同一種搜尋裡，接著是and的搜尋，他其實就像是兩點之間連線的意思，當時學姊給了一個老鼠迷宮改版的路線算法，了解其原理後實做出來了，但因為有時候使用者不一定會知道哪兩點是在端點，因此後來在前面加入判斷端點的搜尋，這樣順序不同也都能跑出對結果。</description>
+ 單一搜尋 兩個搜尋不能刪除 算出兩點之間路徑的功能(and搜尋)還有問題
+-&amp;gt; 然而卻佔據了大半程式碼。  加入的功能  以HSL色域進行產生亂數的顏色
+-&amp;gt; 可以達到120~180個絕對不重複且可分辨的顏色了   原理:
+HSL顏色規範是把顏色空間定義為一個圓柱體，那只要是在360度中不要太接近就不太會一樣，如果每種顏色差6度就有60個不會重複的顏色。如果切2層或3層就可以達到120~180個絕對不重複的顏色了。
+ HSL色彩空間定義 重作一般和or搜尋</description>
     </item>
     
     <item>

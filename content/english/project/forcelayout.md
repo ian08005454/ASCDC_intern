@@ -1,30 +1,55 @@
----
-title: "社群網路分析"
-description: "視覺化鏈結資料"
+ ---
+title: "數位人文研究平台 - 社群網路分析"
+description: "數位人文研究平台中將鏈結資料做視覺化處理，可用於社群網路分析"
 draft: false
 image : "images/project/echarts.png"
-bg_image: "images/featue-bg.jpg"
-category: "Force layout"
+bg_image: "images/project/e-charts.PNG"
+category: "資料視覺化"
 information:
+  - label : "開發者"
+    info : "李韋杰"
   - label : "主要目的"
     info : "用視覺化找出更多資訊"
-  - label : "Tools Used"
-    info : "E-charts"
-  - label : "Completed on"
+  - label : "使用工具"
+    info : "E-charts, JS"
+  - label : "完成時間"
     info : "--"
-  - label : "Skills"
+  - label : "技能需求"
     info : "HTML5 / Javascript / CSS3"
 ---
-### 社群網路分析視覺化
+ ### 社群網路分析視覺化
 主要功能是協助中研院內的研究者在研究時能更清楚的察看人物之間的關係遠近，方便研究者進行研究。當時接手的時候已經完成了基本的功能。
 搜尋功能只做了:
 1. 單一搜尋
 2. 兩個搜尋不能刪除
-3. 算出兩點之間路徑的功能還有問題
-然而卻佔據了大半程式碼，因此把搜尋全部重寫了。  
-### 我加入的功能和修正的bug
+3. 算出兩點之間路徑的功能(and搜尋)還有問題
+    -> 然而卻佔據了大半程式碼。
+### 加入的功能
 1. 以HSL色域進行產生亂數的顏色
-    
-2. 
-一開始還不了解程式碼，因此開始研究應該要如何不讓隨機跑出來的顏色長的接近的問題，但因不清楚怎麼從十六進位碼看出甚麼顏色是接近或是太黑或太亮，後來發現有一種顏色規範(HSL)(如圖11)是把顏色空間定義為一個圓柱體，那只要是在360度中不要太接近就不太會一樣，如果每種顏色差6度就有60個不會重複的顏色。如果切2層或3層就可以達到120~180個絕對不重複的顏色了。
-接下來就開始and 和 or的搜尋了，發現到or搜尋的原理其實與單一搜尋的概念很像，細看後發現單層搜尋和多層搜尋也很像，就把全部都整合在同一種搜尋裡，接著是and的搜尋，他其實就像是兩點之間連線的意思，當時學姊給了一個老鼠迷宮改版的路線算法，了解其原理後實做出來了，但因為有時候使用者不一定會知道哪兩點是在端點，因此後來在前面加入判斷端點的搜尋，這樣順序不同也都能跑出對結果。
+    -> 可以達到120~180個絕對不重複且可分辨的顏色了
+> 原理:
+> HSL顏色規範是把顏色空間定義為一個圓柱體，那只要是在360度中不要太接近就不太會一樣，如果每種顏色差6度就有60個不會重複的顏色。如果切2層或3層就可以達到120~180個絕對不重複的顏色了。
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/HSL.png"/><br>HSL色彩空間定義</center>  
+
+2. 重作一般和or搜尋
+    ->相同功能之下程式碼減少一半，效率不變
+> 原理:
+> or搜尋的原理其實與單一搜尋的概念很像，細看後發現單層搜尋和多層搜尋也很像，就把全部都整合在同一種搜尋。
+
+3. 運用老鼠迷宮的改良版做出了and搜尋
+> 原理:
+> and搜尋其實就是兩點之間連線的意思，當時學姊給了一個老鼠迷宮改版的路線算法，了解其原理後實做出來了，但因為有時候使用者不一定會知道哪兩點是在端點，因此後來在前面加入判斷端點的搜尋，這樣順序不同也都能跑出對結果。
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/e-charts.PNG" width="100%" height="100%" /><br>and搜尋</center>  
+
+4. 再搜索功能
+> 指把之前做過的搜尋合起來繼續搜尋，而不是以當前的結果進行搜尋，以前的結果會影響後面的結果。
+> > 遇到的困難是處理各種and or not 混合在一起的邏輯判斷以及字串分割和優先順續
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/再搜索.gif" width="100%" height="100%" /><br>再搜索功能</center>
+
+5. not點與線  
+> 加入了not的功能，也加入了一個放了頁面上所有的點的列表，可以讓使用者點選就可以加入not的搜尋條件，還有圖例點一下也會有一樣的效果  
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/useNot.gif" width="100%" height="100%" /><br>not的用法</center>
+
+6. 線段搜尋  
+> 如同點的搜尋一樣，要包含所有類似的搜尋功能，但因為線的關係，所有的定義會截然不同，且當線雨點憶起搜尋時會造成的情況又會在更複雜，因此現在正努力於這部分，未來將能完全應對所有情況
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/search_rule.png" width="100%" height="100%" /><br>搜尋處理規則</center>

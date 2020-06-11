@@ -68,10 +68,12 @@ hasChildren = true
   name = "李韋杰"
   URL = "author/李韋杰"
   weight = 2
+  [[menu.main]]
+  parent = "實習筆記"
+  name = "李彥瑾"
+  URL = "author/李彥瑾"
+  weight = 3
 
-
-
-  
 
 # footer menu
 [[menu.footer]]

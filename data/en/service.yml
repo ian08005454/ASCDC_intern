@@ -82,8 +82,8 @@ service:
       content: "中研院最美的風景！各位知青文青、網紅網帥，來踩點中研院秘境，在這些景點打卡打出新質感～"
       # service item loop
     - icon : ion-ios-bookmarks #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: 四分溪書訪
-      link: https://ian08005454.github.io/ASCDC_intern/images/四分溪書訪.jpg
+      name: 四分溪書坊
+      link: https://ian08005454.github.io/ASCDC_intern/images/四分溪書坊.jpg
       content: "中央研究院內小而美的書店，藏有專業的文史書，環境舒適安靜。"
 
 

@@ -61,9 +61,8 @@ cta:
 ############################# Funfacts ###############################
 funfacts:
   enable : ture
-  title : "Fun Facts About Us"
-  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  title : "中研院小資料"
+  description : "中研院"
   funfact_item:
     # funfacts item loop
     - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
