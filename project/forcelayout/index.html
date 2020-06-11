@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-tw"><head>
   <meta charset="utf-8">
-  <title>社群網路分析</title>
+  <title>數位人文研究平台 - 社群網路分析</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="視覺化鏈結資料">
+  <meta name="description" content="數位人文研究平台中將鏈結資料做視覺化處理，可用於社群網路分析">
   <meta name="author" content="Wei-Jie, Li">
   <meta name="generator" content="Hugo 0.71.1" />
 
@@ -77,6 +77,8 @@
                   
                   <li><a href="https://ian08005454.github.io/ASCDC_intern/author/%E6%9D%8E%E9%9F%8B%E6%9D%B0">李韋杰</a></li>
                   
+                  <li><a href="https://ian08005454.github.io/ASCDC_intern/author/%E6%9D%8E%E5%BD%A5%E7%91%BE">李彥瑾</a></li>
+                  
                 </ul>
               </li>
               
@@ -92,13 +94,13 @@
   </div>
 </header>
 
-<section class="page-title bg-2" style="background-image: url('https://ian08005454.github.io/ASCDC_intern/images/featue-bg.jpg');">
+<section class="page-title bg-2" style="background-image: url('https://ian08005454.github.io/ASCDC_intern/images/project/e-charts.PNG');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>社群網路分析</h1>
-          <p>視覺化鏈結資料</p>
+          <h1>數位人文研究平台 - 社群網路分析</h1>
+          <p>數位人文研究平台中將鏈結資料做視覺化處理，可用於社群網路分析</p>
         </div>
       </div>
     </div>
@@ -118,13 +120,15 @@
           <h4>Project Details</h4>
           <ul>
             
+            <li><span>開發者 :</span> <strong>李韋杰</strong></li>
+            
             <li><span>主要目的 :</span> <strong>用視覺化找出更多資訊</strong></li>
             
-            <li><span>Tools Used :</span> <strong>E-charts</strong></li>
+            <li><span>使用工具 :</span> <strong>E-charts, JS</strong></li>
             
-            <li><span>Completed on :</span> <strong>&ndash;</strong></li>
+            <li><span>完成時間 :</span> <strong>&ndash;</strong></li>
             
-            <li><span>Skills :</span> <strong>HTML5 / Javascript / CSS3</strong></li>
+            <li><span>技能需求 :</span> <strong>HTML5 / Javascript / CSS3</strong></li>
             
           </ul>
         </div>
@@ -139,19 +143,59 @@
 <ol>
 <li>單一搜尋</li>
 <li>兩個搜尋不能刪除</li>
-<li>算出兩點之間路徑的功能還有問題<br />
-然而卻佔據了大半程式碼，因此把搜尋全部重寫了。</li>
+<li>算出兩點之間路徑的功能(and搜尋)還有問題<br />
+-&gt; 然而卻佔據了大半程式碼。</li>
 </ol>
-<h3 id="我加入的功能和修正的bug">我加入的功能和修正的bug</h3>
+<h3 id="加入的功能">加入的功能</h3>
 <ol>
-<li>
-<p>以HSL色域進行產生亂數的顏色</p>
-</li>
-<li></li>
+<li>以HSL色域進行產生亂數的顏色<br />
+-&gt; 可以達到120~180個絕對不重複且可分辨的顏色了</li>
 </ol>
-<p>一開始還不了解程式碼，因此開始研究應該要如何不讓隨機跑出來的顏色長的接近的問題，但因不清楚怎麼從十六進位碼看出甚麼顏色是接近或是太黑或太亮，後來發現有一種顏色規範(HSL)(如圖11)是把顏色空間定義為一個圓柱體，那只要是在360度中不要太接近就不太會一樣，如果每種顏色差6度就有60個不會重複的顏色。如果切2層或3層就可以達到120~180個絕對不重複的顏色了。<br />
-接下來就開始and 和 or的搜尋了，發現到or搜尋的原理其實與單一搜尋的概念很像，細看後發現單層搜尋和多層搜尋也很像，就把全部都整合在同一種搜尋裡，接著是and的搜尋，他其實就像是兩點之間連線的意思，當時學姊給了一個老鼠迷宮改版的路線算法，了解其原理後實做出來了，但因為有時候使用者不一定會知道哪兩點是在端點，因此後來在前面加入判斷端點的搜尋，這樣順序不同也都能跑出對結果。</p>
-
+<blockquote>
+<p>原理:<br />
+HSL顏色規範是把顏色空間定義為一個圓柱體，那只要是在360度中不要太接近就不太會一樣，如果每種顏色差6度就有60個不會重複的顏色。如果切2層或3層就可以達到120~180個絕對不重複的顏色了。</p>
+</blockquote>
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/HSL.png"/><br>HSL色彩空間定義</center>  
+<ol start="2">
+<li>重作一般和or搜尋<br />
+-&gt;相同功能之下程式碼減少一半，效率不變</li>
+</ol>
+<blockquote>
+<p>原理:<br />
+or搜尋的原理其實與單一搜尋的概念很像，細看後發現單層搜尋和多層搜尋也很像，就把全部都整合在同一種搜尋。</p>
+</blockquote>
+<ol start="3">
+<li>運用老鼠迷宮的改良版做出了and搜尋</li>
+</ol>
+<blockquote>
+<p>原理:<br />
+and搜尋其實就是兩點之間連線的意思，當時學姊給了一個老鼠迷宮改版的路線算法，了解其原理後實做出來了，但因為有時候使用者不一定會知道哪兩點是在端點，因此後來在前面加入判斷端點的搜尋，這樣順序不同也都能跑出對結果。</p>
+</blockquote>
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/e-charts.PNG" width="100%" height="100%" /><br>and搜尋</center>  
+<ol start="4">
+<li>再搜索功能</li>
+</ol>
+<blockquote>
+<p>指把之前做過的搜尋合起來繼續搜尋，而不是以當前的結果進行搜尋，以前的結果會影響後面的結果。</p>
+<blockquote>
+<p>遇到的困難是處理各種and or not 混合在一起的邏輯判斷以及字串分割和優先順續</p>
+</blockquote>
+</blockquote>
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/再搜索.gif" width="100%" height="100%" /><br>再搜索功能</center>
+<ol start="5">
+<li>not點與線</li>
+</ol>
+<blockquote>
+<p>加入了not的功能，也加入了一個放了頁面上所有的點的列表，可以讓使用者點選就可以加入not的搜尋條件，還有圖例點一下也會有一樣的效果</p>
+</blockquote>
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/useNot.gif" width="100%" height="100%" /><br>not的用法</center>
+<ol start="6">
+<li>線段搜尋</li>
+</ol>
+<blockquote>
+<p>如同點的搜尋一樣，要包含所有類似的搜尋功能，但因為線的關係，所有的定義會截然不同，且當線雨點憶起搜尋時會造成的情況又會在更複雜，因此現在正努力於這部分，未來將能完全應對所有情況</p>
+</blockquote>
+<center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/search_rule.png" width="100%" height="100%" /><br>搜尋處理規則</center>
         </div>
       </div>
     </div>
