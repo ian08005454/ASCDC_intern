@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copyright &amp;copy; 2020 [中央研究院數位文化中心](https://ascdc.sinica.edu.tw/) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 11 Jun 2020 09:50:30 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 15:30:30 +0800</lastBuildDate>
     
 	<atom:link href="https://ian08005454.github.io/ASCDC_intern/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CMD</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/tags/cmd/</link>
+      <pubDate>Thu, 11 Jun 2020 15:30:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/tags/cmd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/tags/git/</link>
+      <pubDate>Thu, 11 Jun 2020 15:30:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/tags/hugo/</link>
+      <pubDate>Thu, 11 Jun 2020 15:30:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>前端</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/tags/%E5%89%8D%E7%AB%AF/</link>
+      <pubDate>Thu, 11 Jun 2020 15:30:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/tags/%E5%89%8D%E7%AB%AF/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>apache solr</title>
@@ -49,6 +85,15 @@
     </item>
     
     <item>
+      <title>實習心得</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/tags/%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Thu, 11 Jun 2020 09:50:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/tags/%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>斷詞系統</title>
       <link>https://ian08005454.github.io/ASCDC_intern/tags/%E6%96%B7%E8%A9%9E%E7%B3%BB%E7%B5%B1/</link>
       <pubDate>Thu, 11 Jun 2020 09:50:30 +0800</pubDate>
@@ -67,51 +112,6 @@
     </item>
     
     <item>
-      <title>CSS</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/tags/css/</link>
-      <pubDate>Wed, 10 Jun 2020 12:30:30 +0800</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/tags/go/</link>
-      <pubDate>Wed, 10 Jun 2020 12:30:30 +0800</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HTML</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/tags/html/</link>
-      <pubDate>Wed, 10 Jun 2020 12:30:30 +0800</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/tags/hugo/</link>
-      <pubDate>Wed, 10 Jun 2020 12:30:30 +0800</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>前端</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/tags/%E5%89%8D%E7%AB%AF/</link>
-      <pubDate>Wed, 10 Jun 2020 12:30:30 +0800</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/tags/%E5%89%8D%E7%AB%AF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>markdown</title>
       <link>https://ian08005454.github.io/ASCDC_intern/tags/markdown/</link>
       <pubDate>Tue, 09 Jun 2020 21:42:30 +0800</pubDate>
@@ -121,11 +121,11 @@
     </item>
     
     <item>
-      <title>git</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/tags/git/</link>
+      <title>go</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/tags/go/</link>
       <pubDate>Sun, 07 Jun 2020 15:33:30 +0800</pubDate>
       
-      <guid>https://ian08005454.github.io/ASCDC_intern/tags/git/</guid>
+      <guid>https://ian08005454.github.io/ASCDC_intern/tags/go/</guid>
       <description></description>
     </item>
     

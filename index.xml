@@ -7,10 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copyright &amp;copy; 2020 [中央研究院數位文化中心](https://ascdc.sinica.edu.tw/) All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 11 Jun 2020 09:50:30 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 15:30:30 +0800</lastBuildDate>
     
 	<atom:link href="https://ian08005454.github.io/ASCDC_intern/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo 學習筆記(三) - host on github</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/</link>
+      <pubDate>Thu, 11 Jun 2020 15:30:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/</guid>
+      <description>當網頁都完成後就必須找台server host 上去，這裡樣補充的使用是github page。 以下是git上去專案網站的語法，需要把網址改成自己的，且cd到工作目錄:
+# remove, public folder will created later RD /S public $ git add . git commit -m &amp;#39;hugo project init&amp;#39; # push git push -u origin master # Create a new orphand branch (no commit history) named gh-pages git checkout --orphan gh-pages # Unstage all files # -rf themes/hyde git reset # Add and commit that file git add .</description>
+    </item>
+    
+    <item>
+      <title>1082_李彥瑾的實習心得</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/blog/1082_%E6%9D%8E%E5%BD%A5%E7%91%BE%E7%9A%84%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Thu, 11 Jun 2020 09:50:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/blog/1082_%E6%9D%8E%E5%BD%A5%E7%91%BE%E7%9A%84%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97/</guid>
+      <description>實習心得 自我評估 由於參與的計畫還在開發中，許多需求還未明確，也無法確定當前的作法能否達到期望的效果。所以除了按照經理所說的來做，自己也可以多方研究是否有更好的方法，主管們都非常願意聆聽工讀生們的想法。
+一開始不熟悉Java語法，在安裝環境的時候遇到很多問題，還好有正職的同事幫忙，給我很多參考網址讓我自己去把環境慢慢裝起來，遇到問題的時候也是很快地來幫助我。寫程式方面也受到很多指導，因為自己的邏輯並不是很好，主管和同事也會給予很多協助，會跟我說有可以哪些方法用。
+在將近一學期的實習，每天都很充實，雖然我們沒有像業界公司有進度上的壓力，但是每周的報告中都希望自己能有一些成果可以呈現。過程中也發現自己有很多不足，因為我們開發的系統是半自動化的數位研究，因此方法的有效性也是持續研究。過程中經理也有給我看別人的論文，發現真的需要多方的閱讀其他人的經驗和做法之後再回頭來實作會更踏實，否則很容易做出不實用的系統。
+疫情期間我們在家工作了一個月，覺得工作效率提高，但是和團隊討論的機會變少，加上有兩天在上課的關係，有時會無法了解當前的需求和進度。因此，覺得在家工作很棒，但還是需要不時關注團隊的進度。
+心得感想 覺得中研院數位文化中心有非常自由的工作環境，也有滿有趣、具挑戰性的專案讓工讀生來做。一開始主管會問我們想要做哪方面的領域，有機器學習、自然語言處理、影像分析、視覺化呈現&amp;hellip;等。剛開始工作交接的時候主管會給我們學習的時間，也會給我們題目和資料去練習，如果遇到問題也有許多學長姊、正職和主管可以詢問，大家都會很積極地幫助我們。感謝系上為我們安排一年的實習，也很感謝中研院給予我們學習的機會。
+對系上的建議 感謝系上為我們媒合實習公司，大學當中有一年的實習機會真的很好。覺得對於大三的學生，除非有自己很想要研習的領域，否則不論到哪裡實習都差不多，同樣可以學習到學校所學不到的東西。唯一覺得稍微不足的部分，在實習中會發現學校所學的是比較基礎的概念，沒有理解到所學的語言更核心的特性和架構，以及除了邏輯之外在實務上會如何來使用。學校的微型課程或系上的工作坊是很好的方式，可以引入業師開設短期實作課程，讓同學們有多種選擇也能吸收最新的市場技術。</description>
+    </item>
     
     <item>
       <title>使用到的平台與開發環境</title>
@@ -40,19 +64,6 @@ Figure 3. Stanford斷詞結果 參考資料  https://ckip.iis.sinica.edu.tw/demo
     </item>
     
     <item>
-      <title>Hugo 學習筆記(三) - 主題修改</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/</link>
-      <pubDate>Wed, 10 Jun 2020 12:30:30 +0800</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-3/</guid>
-      <description>在編輯過程中一定會發現有些主題的某些地方實在不適合運用，因此想要做細部調整。
-然而這個方法需要了解依些基礎的go語法以及html、css。
-通常可以從yml檔的名字可以對照出html的名字，而html通常位於\themes\&amp;lt;主題名稱&amp;gt;\layouts裡 ，
-參考資料: hugo 文檔
-hugo on github</description>
-    </item>
-    
-    <item>
       <title>Hugo 學習筆記(二) - Markdown文章</title>
       <link>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-2/</link>
       <pubDate>Tue, 09 Jun 2020 21:42:30 +0800</pubDate>
@@ -74,15 +85,6 @@ Picture 1. Markdown Table由於 Markdown 語法的加入圖片不能調整大�
       <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-1/</guid>
       <description>軟體介紹: 為了作實習的網頁，去研究了一下有沒有辦法有效率的製作靜態網頁，就找到了這套工具，它的原理比較像是運用將go語言寫入html來控制變化和做到快速產生網頁的功能，缺點是必須要依靠是特殊的範本，或自己設計一個通用的範本，有時一些網站上的範本可能會遇到一些奇怪的bug，通常只要把原來的範例素材放進去就有解了，但這件事完全沒提到過。
 以下實作環境為windows 因相關資源稀少，特別留下紀錄  hugo principle   --Picture 1. hugo principlehugo缺點:  當要改他們提供的主題其實會遇到很多問題。 主題能提供的相關文件常常不足。 說明文件量太多，但使用者偏少，又以英文居多，其實要完全了解這套軟體是有門檻。 有時會遇到奇怪的bug。  hugo優點:  Markdown的編輯功能非常方便，要更改圖片也非常方便 很多重複的部分都會自動處理好，還會自動產生必須的網頁出來 如果熟悉後網頁能快速方便的產生出來  使用方式: 前置動作 先去Hugo Releases抓後面為Windows-64bit.</description>
-    </item>
-    
-    <item>
-      <title>Hugo 學習筆記(三) - 主題修改</title>
-      <link>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-4/</link>
-      <pubDate>Sun, 07 Jun 2020 15:33:30 +0800</pubDate>
-      
-      <guid>https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-4/</guid>
-      <description>Name Age     Bob 27   Alice 23       環境 Hugo Markdown HackMD     HTML語法 不支援，需搭配Shortcodes 支持直接寫入 支持直接寫入   換行 後面加兩個空白 後面加兩個空白 直接enter    Picture 1.</description>
     </item>
     
     <item>
