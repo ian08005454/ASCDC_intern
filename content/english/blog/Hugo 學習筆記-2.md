@@ -11,7 +11,7 @@ draft: false
 type: "post"
 ---
 上一篇把hugo安裝完後，要來說說在hugo編輯markdown語法的注意事項，還有常用語法。
-還沒看得往這走:[Hugo 學習筆記-1]({{< ref "Hugo 學習筆記-1.md" >}})
+還沒看的人往這去參閱一下吧:[*Hugo 學習筆記-1*]({{< ref "Hugo 學習筆記-1.md" >}})
 ## 常用markdown語法
 常用的語法可以參考[HackMD](https://hackmd.io/s/tutorials-tw)、[3分鐘學會Markdown常用語法](https://tiida54.github.io/2018/01/03/3%E5%88%86%E9%90%98%E5%AD%B8%E6%9C%83Markdown%E5%B8%B8%E7%94%A8%E8%AA%9E%E6%B3%95/)、[Markdown文件](https://markdown.tw/#overview)。  
 ## 注意事項  

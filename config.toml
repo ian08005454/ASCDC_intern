@@ -5,7 +5,7 @@ theme = "airspace-hugo"
 # post pagination
 paginate = "4"
 # post excerpt
-summaryLength = "20"
+summaryLength = "10"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
