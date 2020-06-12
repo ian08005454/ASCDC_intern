@@ -150,7 +150,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright ="Copyright &copy; 2020 [中央研究院數位文化中心](https://ascdc.sinica.edu.tw/) All Rights Reserved"
+copyright ="Copyright &copy; 2020 1061619李韋杰、1061653李彥瑾 All Rights Reserved"
 
 [outputFormats]
   [outputFormats.MyEnrichedFormat]

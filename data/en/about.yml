@@ -10,37 +10,7 @@ about:
     label : "數位人文研究平台"
     link : "https://dh.ascdc.sinica.edu.tw/member/"
 
-  funfacts:
-    # funfacts loop
-    - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "總功能數"
-      count : "9"
-      
-    # funfacts loop
-    - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "使用人次"
-      count : "35000"
-      
-    # funfacts loop
-    - icon : "ion-ios-calendar-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "營運天數"
-      count : "70"
-      
-    # funfacts loop
-    - icon : "ion-ios-folder-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "總文本數"
-      count : "10"
 
-    # funfacts loop
-    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "研討會發表次數"
-      count : "75"
-      
-    # funfacts loop
-    - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Awards Winner"
-      count : "20"
-      
 ################################ feature #####################################
 features:
   enable : true

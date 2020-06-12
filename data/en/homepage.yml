@@ -22,7 +22,7 @@ about:
   button:
     enable : true
     label : "View Homepage"
-    link : "project"
+    link : "https://ascdc.sinica.edu.tw/"
 ######################### Portfolio ###############################
 portfolio:
   enable : false
