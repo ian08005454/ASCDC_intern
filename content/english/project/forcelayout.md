@@ -4,14 +4,14 @@ description: "數位人文研究平台中將鏈結資料做視覺化處理，可
 draft: false
 image : "images/project/echarts.png"
 bg_image: "images/project/e-charts.PNG"
-category: "Digital Humanity"
+category: "視覺化"
 information:
   - label : "開發者"
     info : "李韋杰"
   - label : "主要目的"
     info : "用視覺化找出更多資訊"
   - label : "使用工具"
-    info : "E-charts, JS"
+    info : "E-charts,JS"
   - label : "完成時間"
     info : "--"
   - label : "技能需求"
