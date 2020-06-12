@@ -1,50 +1,55 @@
 ################################## About #####################################
 about:
   enable : true
-  image : "images/DRP-P.png"
-  title : "關於數位人文研究平台"
-  content : "數位人文研究平台提供一個完整的研究環境，讓研究者可以透過雲端服務取得研究中所需的資料與工具。研究者可上傳文本與權威詞，也可使用平台中其他開放的文本與權威詞來進行研究。權威詞具有手動與自動標記文本的功能，並可以使用階層方式分類權威詞。標記文本完成後，可進行權威詞與N字詞詞頻統計、共現詞關聯分析，再以統計圖表、文字雲、社會網絡分析圖、地圖等資料視覺化方式呈現。</br>此外，平台提供相似內容比對、正規表示式查詢、多詞間距查詢與統計篩選功能，讓研究者可以容易地進行考據。</br>"
-
+  image : "images/ASCDC_arch.jpg"
+  title : "中央研究院數位文化中心"
+  content : "中央研究院數位文化中心正式成立於2013年，旨在運用數位科技豐富研究材料、改善研究環境、促進人文研究。本中心成果除了總計畫，還有各所的子計畫。除此，也藉由外延的合作計畫，將學術研究與文創產業等各項資源進行有機整合，從而拓展數位人文學的內涵與技術，並嘗試運用新興載體進行創造轉化。"
   button:
     enable : true
-    label : "數位人文研究平台"
-    link : "https://dh.ascdc.sinica.edu.tw/member/"
+    label : "數位文化中心"
+    link : "https://ascdc.sinica.edu.tw/"
 
 
 ################################ feature #####################################
 features:
   enable : true
-  title : "六大實用功能"
+  title : "工作環境"
   feature_item:
     # feature item loop
     - icon : "ion-android-globe" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "時空整合呈現 (GIS)"
-      content : "經過文本查找後將統計結果以地圖視覺化"
+      name : "歷史語言研究所"
+      link : "https://ian08005454.github.io/ASCDC_intern/images/ASPicture/building.jpg"
+      content : "數位文化中心在這裡五樓"
       
     # feature item loop
     - icon : "ion-search" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "彈性與複雜的查詢"
-      content : "以任意的邏輯搭配找到物件之間的關係"
+      name : "咖啡"
+      link : "https://ian08005454.github.io/ASCDC_intern/images/ASPicture/coffee.jpg"
+      content : "便宜的10元咖啡方便好喝"
       
     # feature item loop
     - icon : "ion-ios-calculator" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "詞頻統計 (權威詞、N Gram)"
-      content : "透過選擇的查詢詞找出文本中接近與出現次數高的詞"
+      name : "座位"
+      link : "https://ian08005454.github.io/ASCDC_intern/images/ASPicture/sit.jpg"
+      content : "辦公的座位"
       
     # feature item loop
     - icon : "ion-pie-graph" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "資料視覺化 (直方圖、網絡圖等)"
-      content : "資料視覺化讓統計結果和人物關係更加清楚"
+      name : "茶水間"
+      link : "https://ian08005454.github.io/ASCDC_intern/images/ASPicture/teaRoom.jpg"
+      content : "有微波爐和電鍋可以處理中餐"
       
     # feature item loop
     - icon : "ion-ios-color-filter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "比對相似文本"
-      content : "透過查詢詞比對出相似的文本，讓研究者發現更多線索"
+      name : "冰箱"
+      link : "https://ian08005454.github.io/ASCDC_intern/images/ASPicture/refrigerator.jpg"
+      content : "大家都可以冰要吃的東西"
       
     # feature item loop
     - icon : "ion-android-list" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "關聯詞共現統計"
-      content : "讓使用者從厚重的文本中萃取出最重要的人物關聯資訊。"
+      name : "實習生辦公桌"
+      link : "https://ian08005454.github.io/ASCDC_intern/images/ASPicture/desktop.jpg"
+      content : "大家在一起辦公，效率好氣氛佳"
     
 
 #################################### testimonial & mission vision #######################################
@@ -56,12 +61,14 @@ mission_vision:
   enable : true
   tabs:
     # tab item loop
-    - name : "Mission"
-      content : "中央研究院數位文化中心根據人文研究的需求，發展協助學者提升研究質量的數位化工具與平台。期望結合研究者、研究資料與研究工具之綜效，擴大研究的規模及縮短研究的時間，以提升人文研究的質量。</br>此外，我們也希望能共同探索數位科技對於人類社會與文明所帶來的衝擊，並省思因應之道。"
+    - name : "任務"
+      content : "推動跨學科的數位人文研究，致力於鏈結開放資料之實作，以及數位資料與學術成果之創新應用，期能以新的敘述、詮釋與傳播方式，豐富文化內涵。重要成果包含「基礎研究」（如：數位人文研究平台、鏈結開放資料）、「應用研究」（如：數位博物館系統）及「社會連結」（如：發行歷史地圖散步、Creative Comic Collection創作集）。</br>子計畫方面，本中心已建立健全、公開、透明、合理的機制，每年徵求、審查、管考本院「數位典藏與數位人文學研究計畫」，與本院各所及學者共同合作，計畫包括：建置以數位人文研究為導向的知識庫、數位人文研究計畫，以及創新數位技術研發計畫等不同類型的子計畫。"
       
     # tab item loop
-    - name : "Future"
-      content : "我們也持續發展數位人文研究的相關工具與技術，包含鏈結開放資料(Linked Open Data, LOD)、國際圖像互操作架構 (International Image Interoperability Framework, IIIF)、中文古籍圖像文字辨識技術 (Optical Character Recognition, OCR)、命名實體識別技術(Named Entity Recognition)，待技術與工具發展成熟後，我們將開放工具與服務供研究者使用。"
+    - name : "使命"
+      content : " * 以數位方式保存、傳播、創造文化。</br>
+* 運用數位科技豐富研究材料、改善研究環境、促進人文研究。</br>
+* 探索數位科技與人類文明發展的關係。</br>"
 
 
 ############################# call to action #################################
