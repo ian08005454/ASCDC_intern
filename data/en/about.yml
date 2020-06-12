@@ -3,7 +3,7 @@ about:
   enable : true
   image : "images/DRP-P.png"
   title : "關於數位人文研究平台"
-  content : "中央研究院數位文化中心根據人文研究的需求，發展協助學者提升研究質量的數位化工具與平台。期望結合研究者、研究資料與研究工具之綜效，擴大研究的規模及縮短研究的時間，以提升人文研究的質量。</br> 數位人文研究平台提供一個完整的研究環境，讓研究者可以透過雲端服務取得研究中所需的資料與工具。研究者可上傳文本與權威詞，也可使用平台中其他開放的文本與權威詞來進行研究。權威詞具有手動與自動標記文本的功能，並可以使用階層方式分類權威詞。標記文本完成後，可進行權威詞與N字詞詞頻統計、共現詞關聯分析，再以統計圖表、文字雲、社會網絡分析圖、地圖等資料視覺化方式呈現。</br>"
+  content : "數位人文研究平台提供一個完整的研究環境，讓研究者可以透過雲端服務取得研究中所需的資料與工具。研究者可上傳文本與權威詞，也可使用平台中其他開放的文本與權威詞來進行研究。權威詞具有手動與自動標記文本的功能，並可以使用階層方式分類權威詞。標記文本完成後，可進行權威詞與N字詞詞頻統計、共現詞關聯分析，再以統計圖表、文字雲、社會網絡分析圖、地圖等資料視覺化方式呈現。</br>此外，平台提供相似內容比對、正規表示式查詢、多詞間距查詢與統計篩選功能，讓研究者可以容易地進行考據。</br>"
 
   button:
     enable : true
@@ -13,27 +13,27 @@ about:
   funfacts:
     # funfacts loop
     - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Completed Projects"
-      count : "349"
+      name : "總功能數"
+      count : "9"
       
     # funfacts loop
     - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Lines Of Code"
+      name : "使用人次"
       count : "35000"
       
     # funfacts loop
-    - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Satisfied Customer"
+    - icon : "ion-ios-calendar-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "營運天數"
       count : "70"
       
     # funfacts loop
-    - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Awards Winner"
+    - icon : "ion-ios-folder-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "總文本數"
       count : "10"
-      
+
     # funfacts loop
     - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Satisfied Customer"
+      name : "研討會發表次數"
       count : "75"
       
     # funfacts loop
@@ -47,34 +47,34 @@ features:
   title : "六大實用功能"
   feature_item:
     # feature item loop
-    - icon : "ion-ios-color-filter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : "ion-android-globe" #ionicon pack v2 : https://ionicons.com/v2/
       name : "時空整合呈現 (GIS)"
-      content : "可以選擇地理權威詞，並且經過文本查找後將統計結果以地圖視覺化"
+      content : "經過文本查找後將統計結果以地圖視覺化"
       
     # feature item loop
-    - icon : "ion-ios-unlocked-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : "ion-search" #ionicon pack v2 : https://ionicons.com/v2/
       name : "彈性與複雜的查詢"
       content : "以任意的邏輯搭配找到物件之間的關係"
       
     # feature item loop
-    - icon : "ion-ios-game-controller-b-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : "ion-ios-calculator" #ionicon pack v2 : https://ionicons.com/v2/
       name : "詞頻統計 (權威詞、N Gram)"
       content : "透過選擇的查詢詞找出文本中接近與出現次數高的詞"
       
     # feature item loop
-    - icon : "ion-ios-mic-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : "ion-pie-graph" #ionicon pack v2 : https://ionicons.com/v2/
       name : "資料視覺化 (直方圖、網絡圖等)"
       content : "資料視覺化讓統計結果和人物關係更加清楚"
       
     # feature item loop
-    - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : "ion-ios-color-filter-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "比對相似文本"
       content : "透過查詢詞比對出相似的文本，讓研究者發現更多線索"
       
     # feature item loop
-    - icon : "ion-ios-star-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : "ion-android-list" #ionicon pack v2 : https://ionicons.com/v2/
       name : "關聯詞共現統計"
-      content : "找出名詞之間的關聯，讓使用者從厚重的文本中萃取出最重要的人物關聯資訊。"
+      content : "讓使用者從厚重的文本中萃取出最重要的人物關聯資訊。"
     
 
 #################################### testimonial & mission vision #######################################
@@ -87,7 +87,7 @@ mission_vision:
   tabs:
     # tab item loop
     - name : "Mission"
-      content : "結合數位科技的專家與人文領域的學者，共同探索如何利用數位科技與數位內容進行人文研究，以建立新的研究典範。</br>此外，我們也希望能共同探索數位科技對於人類社會與文明所帶來的衝擊，並省思因應之道。"
+      content : "中央研究院數位文化中心根據人文研究的需求，發展協助學者提升研究質量的數位化工具與平台。期望結合研究者、研究資料與研究工具之綜效，擴大研究的規模及縮短研究的時間，以提升人文研究的質量。</br>此外，我們也希望能共同探索數位科技對於人類社會與文明所帶來的衝擊，並省思因應之道。"
       
     # tab item loop
     - name : "Future"

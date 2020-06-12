@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-tw"><head>
   <meta charset="utf-8">
-  <title>Hugo 學習筆記(二) - Markdown文章</title>
+  <title>1082_實習心得</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="快速產生出靜態網頁的工具">
+  <meta name="description" content="李韋杰的實習心得">
   <meta name="author" content="Wei-Jie, Li">
   <meta name="generator" content="Hugo 0.71.1" />
 
@@ -94,13 +94,13 @@
   </div>
 </header>
 
-<section class="page-title bg-2" style="background-image: url('https://ian08005454.github.io/ASCDC_intern/images/blog/hugo-bg.jpg');">
+<section class="page-title bg-2" style="background-image: url('https://ian08005454.github.io/ASCDC_intern/images/blog/%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97%E5%B0%81%E9%9D%A2.jpg');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Hugo 學習筆記(二) - Markdown文章</h1>
-          <p>快速產生出靜態網頁的工具</p>
+          <h1>1082_實習心得</h1>
+          <p>李韋杰的實習心得</p>
         </div>
       </div>
     </div>
@@ -112,10 +112,10 @@
 		<div class="row">
 			<div class="col-md-8">
 				<div class="post post-single">
-					<h2 class="post-title">Hugo 學習筆記(二) - Markdown文章</h2>
+					<h2 class="post-title">1082_實習心得</h2>
 					<div class="post-meta">
 						<ul>
-              <li><i class="ion-calendar"></i> June 9, 2020</li>
+              <li><i class="ion-calendar"></i> June 12, 2020</li>
               <li><i class="ion-android-people"></i>
                 Posted By
                 
@@ -124,80 +124,24 @@
               </li>
               <li><i class="ion-pricetags"></i> 
                 
-                <a href="https://ian08005454.github.io/ASCDC_intern/tags/%e5%89%8d%e7%ab%af">前端</a>
-								
-                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/hugo">Hugo</a>
-								
-                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/markdown">Markdown</a>
+                <a href="https://ian08005454.github.io/ASCDC_intern/tags/%e5%af%a6%e7%bf%92%e5%bf%83%e5%be%97">實習心得</a>
 								
               </li>
             </ul>
 					</div>
 					<div class="post-thumb">
-						<img class="img-responsive" src="https://ian08005454.github.io/ASCDC_intern/images/blog/hugo.png" alt="Hugo 學習筆記(二) - Markdown文章">
+						<img class="img-responsive" src="https://ian08005454.github.io/ASCDC_intern/images/blog/%e5%af%a6%e7%bf%92%e5%bf%83%e5%be%97%e5%b0%81%e9%9d%a2.jpg" alt="1082_實習心得">
 					</div>
 					<div class="post-content post-excerpt">
-						<p>上一篇把hugo安裝完後，要來說說在hugo編輯markdown語法的注意事項，還有常用語法。<br />
-還沒看得往這走:<a href="https://ian08005454.github.io/ASCDC_intern/blog/hugo-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-1/">Hugo 學習筆記-1</a></p>
-<h2 id="常用markdown語法">常用markdown語法</h2>
-<p>常用的語法可以參考<a href="https://hackmd.io/s/tutorials-tw">HackMD</a>、<a href="https://tiida54.github.io/2018/01/03/3%E5%88%86%E9%90%98%E5%AD%B8%E6%9C%83Markdown%E5%B8%B8%E7%94%A8%E8%AA%9E%E6%B3%95/">3分鐘學會Markdown常用語法</a>、<a href="https://markdown.tw/#overview">Markdown文件</a>。</p>
-<h2 id="注意事項">注意事項</h2>
-<p>但在看這些文章前要注意一些事情，hugo與一般Markdown語法有點不同<br />
-
-
-  <center><img src="https://ian08005454.github.io/ASCDC_intern/images/blog/HugoTable.PNG" width="100%" height="100%" /><br>Picture 1. Markdown Table</center>
-</p>
-<p>由於 Markdown 語法的加入圖片不能調整大小，因此建議使用HTML語法。</p>
-<h2 id="如何使用及加入-shortcodes-">如何使用及加入 Shortcodes:</h2>
-<p>如果只是要使用HTML的語法則可以參考<a href="https://anaulin.org/blog/hugo-raw-html-shortcode/">Simple Shortcode to Insert Raw HTML in Hugo</a>這篇的作法。<br />
-實作如下:<br />
-在網站目錄的<code>\layouts</code>加入<code>shortcodes</code>資料夾<br />
-創立一個名為rawhtml.html的檔案，內容如下</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!-- raw html --&gt;</span>
-{{.Inner}}
-</code></pre></div><p>但其實hugo一開始就加入了一些Shortcodes進去，詳情可以參考<a href="https://gohugo.io/content-management/shortcodes/">Shortcodes</a>。<br />
-常用的有:<br />
-
-
-  <center><img src="https://ian08005454.github.io/ASCDC_intern/images/blog/codeEX.PNG" width="100%" height="100%" /><br></center>
-</p>
-<ul>
-<li>ref 和 relref -  look up the pages by their relative path
-<center><img src="https://ian08005454.github.io/ASCDC_intern/images/blog/ref.PNG" width="100%" height="100%" /><br></center>
-</li>
-</ul>
-<h2 id="configtoml-設定可以請用擴充語法">config.toml 設定，可以請用擴充語法</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[<span style="color:#a6e22e">markup</span>]
-  <span style="color:#a6e22e">defaultMarkdownHandler</span> = <span style="color:#e6db74">&#34;goldmark&#34;</span>
-  [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">goldmark</span>]
-    [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">goldmark</span>.<span style="color:#a6e22e">extensions</span>]
-      <span style="color:#a6e22e">definitionList</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">footnote</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">linkify</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">strikethrough</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">table</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">taskList</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">typographer</span> = <span style="color:#66d9ef">true</span>
-    [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">goldmark</span>.<span style="color:#a6e22e">parser</span>]
-      <span style="color:#a6e22e">attribute</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">autoHeadingID</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">autoHeadingIDType</span> = <span style="color:#e6db74">&#34;github&#34;</span>
-    [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">goldmark</span>.<span style="color:#a6e22e">renderer</span>]
-      <span style="color:#a6e22e">hardWraps</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">unsafe</span> = <span style="color:#66d9ef">true</span>
-      <span style="color:#a6e22e">xhtml</span> = <span style="color:#66d9ef">true</span>
-    [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">tableOfContents</span>]
-      <span style="color:#a6e22e">endLevel</span> = <span style="color:#ae81ff">3</span>
-      <span style="color:#a6e22e">ordered</span> = <span style="color:#66d9ef">false</span>
-      <span style="color:#a6e22e">startLevel</span> = <span style="color:#ae81ff">2</span>
-</code></pre></div><h2 id="參考資料-"><strong>參考資料:</strong></h2>
-<hr />
-<p><a href="https://tiida54.github.io/2018/01/03/3%E5%88%86%E9%90%98%E5%AD%B8%E6%9C%83Markdown%E5%B8%B8%E7%94%A8%E8%AA%9E%E6%B3%95/">3分鐘學會Markdown常用語法</a><br />
-<a href="https://markdown.tw/#overview">Markdown文件</a><br />
-<a href="https://gohugo.io/templates/shortcode-templates/">Create Your Own Shortcodes</a><br />
-<a href="https://anaulin.org/blog/hugo-raw-html-shortcode/">Simple Shortcode to Insert Raw HTML in Hugo</a><br />
-<a href="https://gohugo.io/">hugo 文檔</a><br />
-<a href="https://www.gohugo.org/doc/tutorials/github-pages-blog/">hugo on github</a></p>
+						<h1 id="實習心得-"><strong>實習心得</strong></h1>
+<h2 id="自我評估-">自我評估</h2>
+<p>這4個月於中研院實習過得很充實，雖然一開始覺得做前端資料視覺化沒有很需技術實力的感覺，也想說來這裡想多學習一點與機器學習有關的內容，但在接觸和學習網頁前端後，也完全改變了我對前端的看法。在遠傳暑期實習時，同事花了很多時間自己建視覺化的網頁，我當時一直不太了解他們是怎麼做的，也想說網路上就有一堆視覺化的工具了，感覺沒必要再自己刻一個。直到我來這裡實習，當開始接觸前端後，才知道其實很多功能是BI軟體無法提供的，所以才需要自己做圖表，也是真正嘗試後才發現其實前端也是可以學到很多厲害的工具。</br><br />
+在家辦公時有時候會比較沒效率但我會在非上班時間把那先認為我應該要完成的部分補起來，也因為在家辦公有了更多的時間，可以花更多心力在工作之上，也可以獲得更多的睡眠時間，感覺精神好效率也提高了不少。事實上在這件事情上很感謝疫情，讓我能體驗一下居家辦公，也了解到居家辦公中要如何提供工作效率、要如何和長官討論。</p>
+<h2 id="心得感想-">心得感想</h2>
+<p>剛進來中研院時學姊幫助了我很多，教了我不少東西，也會在我卡關的時候給予一些協助，在家辦公的時候，每個星期三都來學校陪我交接，跟我討論應該怎麼做比較好。或許沒有學姊，我真的很難那麼快習慣實習的環境，也沒辦法知道這附近有甚麼平民美食，有時抱怨、有時討論、有時聊天，都讓我漸漸融入了中研院的實習中，能遇到學姊真的太好了，謝謝學姊。</br><br />
+剛開始看到搜尋功能一直不能理解的and、or、not的搜尋到底是甚麼表達法，有時還會對於總監的要求有所持疑，心想這東西其實實用性不高，但總監提出的解釋和想法，多半都能感到認同。常常感到不知所措時，去找總監都能得到需要的提示，但發現到我真的不擅長解釋討論，常常總監會不理解我在想講甚麼，以前是不常用紙筆溝通的，現在都會先準備一些資料或是例子再去討論，希望能獲得更多進展，當然也不是只有單單在想視覺化，只要找資料時看到能提供效率的工具，都會跟總監討論一下後進行研究和試驗，看看這個工具應該怎麼用或是用在哪，最後都能對開發過程產生了一些幫助。也因此在中研院學到了很多東西，以前是從來沒有接觸過前端的，完全沒想過有那麼多方便強大的工具可以研究，雖然這種工具常常都是沒有圖形介面也必須在伺服器端執行的，但總監還是給了我一個docker可以拿來用。我很感謝總監教了我那麼多，每次與到困難去找你，你都很樂意的協助我，就算問題都很類似也不厭其煩的教導，也很感謝總監讓我隨意地去瞭解一些工具，有很高的自由度。</p>
+<h2 id="對系上的建議-">對系上的建議</h2>
+<p>感謝系上的幫忙，讓我可以進中研院實習，體驗一下在這裡工作的感覺，我認為可以規劃一整個學期或是暑假的一個完整的實習，畢竟我發現上班和實習的狀態很難調整，然後也常常忘記上星期在做甚麼，需要花一點時間回憶一下。認為實習可以半年然後全職就可以同時體驗到專題和實習了，也很容易的學習到更多東西，當中也可以感受到上班跟研究者中實質上的差別。這次疫情的在家辦公，也很感謝系上能提供研討室讓我跟學姊可以更方便的交接。</p>
 
 					</div>
 					<div class="post-comments">
