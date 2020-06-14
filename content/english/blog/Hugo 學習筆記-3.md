@@ -68,7 +68,7 @@ git commit -m "Updating site" && git push origin master
 git subtree push --prefix=public https://github.com/ian08005454/ASCDC_intern.git gh-pages
 ```
 
-## **參考資料:**##
+## **參考資料:** ##
 ---
 [在 Github Pages 建立 Hugo 靜態網站](https://kaichu.io/2015/07/12/my-first-post/)</br>
 [hugo 文檔](https://gohugo.io/)</br>
