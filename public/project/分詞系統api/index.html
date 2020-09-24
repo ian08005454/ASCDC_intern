@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>分詞系統 API</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="呼叫 CKIP 及 Stanford 分詞的 API 和提升分詞速度">
+  <meta name="author" content="Wei-Jie, Li">
+  <meta name="generator" content="Hugo 0.71.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://ian08005454.github.io/ASCDC_intern/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://ian08005454.github.io/ASCDC_intern/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="https://ian08005454.github.io/ASCDC_intern/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://ian08005454.github.io/ASCDC_intern/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://ian08005454.github.io/ASCDC_intern/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://ian08005454.github.io/ASCDC_intern/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://ian08005454.github.io/ASCDC_intern/images/favicon.png" type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://ian08005454.github.io/ASCDC_intern/">
+              <img src="https://ian08005454.github.io/ASCDC_intern/images/logo.png" alt="中央研究院實習成果" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://ian08005454.github.io/ASCDC_intern/">Home</a></li>
+
+              
+              
+              <li><a href="https://ian08005454.github.io/ASCDC_intern/about">工作環境介紹</a></li>
+              
+              
+              
+              <li><a href="https://ian08005454.github.io/ASCDC_intern/project">成果展示</a></li>
+              
+              
+              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">實習筆記 <span class="ion-ios-arrow-down"></span></a>
+                <ul class="dropdown-menu">
+                  
+                  <li><a href="https://ian08005454.github.io/ASCDC_intern/blog">筆記主頁</a></li>
+                  
+                  <li><a href="https://ian08005454.github.io/ASCDC_intern/author/%E6%9D%8E%E9%9F%8B%E6%9D%B0">李韋杰</a></li>
+                  
+                  <li><a href="https://ian08005454.github.io/ASCDC_intern/author/%E6%9D%8E%E5%BD%A5%E7%91%BE">李彥瑾</a></li>
+                  
+                </ul>
+              </li>
+              
+              
+
+              
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title bg-2" style="background-image: url('https://ian08005454.github.io/ASCDC_intern/images/DRP.PNG');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>分詞系統 API</h1>
+          <p>呼叫 CKIP 及 Stanford 分詞的 API 和提升分詞速度</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <img class="img-responsive w-100" src="https://ian08005454.github.io/ASCDC_intern/images/project/projecct1_result.png" alt="">
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Project Details</h4>
+          <ul>
+            
+            <li><span>開發者 :</span> <strong>李彥瑾</strong></li>
+            
+            <li><span>語言&amp;環境 :</span> <strong>JAVA/Flask/Python</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <h1 id="數位人文平台-文本分詞"><strong>數位人文平台-文本分詞</strong></h1>
+<h3 id="功能介紹">功能介紹</h3>
+<p>CKIP 及 Stanford 分詞的 API 和提升分詞速度。</p>
+<h3 id="分詞系統在平台中的應用">分詞系統在平台中的應用</h3>
+<p>數位人文平台在協助數位研究之前，需要做一些自然語言前處理，先將文本分詞過後，使用者就可以對文本做「間距查詢」及「引導查詢」。平台目前使用 CKIP、Jieba、Stanford 三種分詞系統。</p>
+<h3 id="測試">測試</h3>
+<p>撰寫多主機分詞之前，先測試了三個分詞系統的分詞速度，了解三個分詞系統各自的瓶頸。測試結果發現 Jieba 的分詞速度遠遠快於 CKIP 和 Stanford。而 CKIP 設計的原因，每次呼叫 CKIP 分詞都需要重新載入模組，花費的時間最久，於是希望能夠將分詞的動作用多執行緒來實作。</p>
+<h3 id="多執行緒實作">多執行緒實作</h3>
+<p>分詞系統的多執行緒依循 Figure 1 的架構來實作。<br />
+<br></p>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/ckipMultithreading.png"  width="100%"  height="100%"  /><br>Figure 1. CKIP 多主機分詞架構圖</center>
+</br>
+<h3 id="成果">成果</h3>
+<p>實際比較單執行緒和雙執行緒對兩本文本的處理速度的結果如 Figure 2，確實減少了對文本分詞花費的時間。</p>
+</br>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/project/multithreadingResult.png"  width="50%"  height="50%"  /><br>Figure 2. 單執行緒與多執行緒比較</center>
+<br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+            
+            <li><a href="https://ian08005454.github.io/ASCDC_intern">Home</a></li>
+            
+            <li><a href="https://ian08005454.github.io/ASCDC_intern/about">工作環境介紹</a></li>
+            
+            <li><a href="https://ian08005454.github.io/ASCDC_intern/project">成果展示</a></li>
+            
+            <li><a href="https://ian08005454.github.io/ASCDC_intern/blog">實習筆記</a></li>
+            
+					</ul>
+				</div>
+				<p class="copyright">Copyright © 2020 1061619李韋杰、1061653李彥瑾 All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+<script src="https://ian08005454.github.io/ASCDC_intern/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://ian08005454.github.io/ASCDC_intern/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://ian08005454.github.io/ASCDC_intern/plugins/slick/slick.min.js"></script>
+
+<script src="https://ian08005454.github.io/ASCDC_intern/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://ian08005454.github.io/ASCDC_intern/plugins/shuffle/shuffle.min.js"></script>
+
+
+
+
+<script src="https://ian08005454.github.io/ASCDC_intern/js/script.min.js"></script>
+
+
+</body>
+
+</html>
