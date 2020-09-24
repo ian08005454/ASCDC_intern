@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>數位人文平台 - 社群網路分析</title>
+      <title>社群網路分析 - 第一階段</title>
       <link>https://ian08005454.github.io/ASCDC_intern/project/forcelayout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,6 +34,15 @@
 搜尋功能只做了:
  單一搜尋 兩個搜尋不能刪除 算出兩點之間路徑的功能(and搜尋)還有問題
 -&amp;gt; 然而卻佔據了大半程式碼。  加入的功能  以HSL色域進行產生亂數的顏色</description>
+    </item>
+    
+    <item>
+      <title>社群網路分析 - 第二階段</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/project/forcelayout2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/project/forcelayout2/</guid>
+      <description>圖 2 軟體畫面## 本軟體目的此軟體的主要功能是協助於中研院數位人文研究平台研究的研究者了解文本中制定的物間之間的關係，並與物件定義資料從視覺化中發現一些細微的關係。但通常書中的資料繁多，因此需要有強大的搜尋功能和篩選功能。而我就在上學期加入了邏輯搜尋功能與多節點間的關係搜尋和節點列表。功能介紹 本節說明本軟體之使用介面與功能，軟體之使用介面如圖 2 所示，主要可區分為四大區塊，為資料視覺化區、視覺化調整區、搜尋區、篩選區，以下將詳細介紹各區塊之功能，並運用數位人文研究平台運算的共現資料和關係定義資料來分析書籍中人物的關係，說明應用本軟體對於研究分析的幫助。</description>
     </item>
     
     <item>

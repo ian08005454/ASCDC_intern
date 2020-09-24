@@ -1,5 +1,5 @@
  ---
-title: "數位人文平台 - 社群網路分析"
+title: "社群網路分析 - 第一階段"
 description: "數位人文研究平台中將鏈結資料做視覺化處理，可用於社群網路分析"
 draft: false
 image : "images/project/echarts.png"
@@ -46,8 +46,8 @@ information:
 > 困難點:是處理各種and or not 混合在一起的邏輯判斷以及字串分割和優先順續
 <center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/再搜索.gif" width="75%" height="75%" /><br>再搜索功能</center>
 
-5. not點與線  
-> 加入了not的功能，也加入了一個放了頁面上所有的點的列表，可以讓使用者點選就可以加入not的搜尋條件，還有圖例點一下也會有一樣的效果  
+5. not點與線的列表功能  
+> 在邏輯搜尋中有not的功能，因此加入了兩個放了頁面上所有的點和關係的列表，可以讓使用者點選就直接加入到not的搜尋條件  
 <center><img src="https://ian08005454.github.io/ASCDC_intern/images/project/useNot.gif" width="75%" height="75%" /><br>not的用法</center>
 
 6. 線段搜尋  

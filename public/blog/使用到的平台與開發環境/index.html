@@ -143,18 +143,20 @@
 <center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/solr_logo.jpg"  width="35%"  height="100%"  /><br>Figure 1. Aapche Solr</center>
 <br>
 <p>Solr是一個企業級搜尋引擎，底層使用Apache Luence開發。Solr是一個NoSQL的技術，在資料儲存的時候，不需要馬上就設計出符合所有情形的框架。Solr有彈性的綱目設計(Flexible schema)，因此每一筆資料不一定有相同的屬性，有需要的時候再添加欄位就可以了。</p>
-<p>Solr有全文檢索功能，設定好資料欄位的型態(Field-Type)之後，Solr會自動建立索引，以後就可以下查詢語法快速取得必要的資料。</p>
-<p>實作方面，學習到使用Java控制Solr進行CRUD。</p>
+<p>Solr有全文檢索功能，設定好資料欄位的型態(Field-Type)之後，Solr會自動建立索引，以後就可以下查詢語法快速取得必要的資料。Solr是一個NoSQL資料庫，用文件式的儲存方式，可以快速地找到每一筆資料。下圖是 Solr 的搜尋主要架構圖，一整個會由一個 Search Handler 來控制，Search Handler 當中的所有元素都可以覆寫，也可以直接覆寫一個 Search Handler 做自己想要的搜尋邏輯。其中最常被覆寫的是 last-components。last-components 是當所有的搜尋結束並得到結果之後，再對結果做其他處理，並且輸出會接續在查詢結果的後面。</p>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/SolrSearchFram.png"  width="25%"  height="100%"  /><br>Figure 2. 覆寫 search component 結果</center>
+<br>
+實作方面，學習到使用Java控制Solr進行CRUD和覆寫 Search Handler 與 Search Component。
 <h2 id="tomcat">Tomcat</h2>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/Tomcat.PNG"  width="25%"  height="100%"  /><br>Figure 2. Tomca</center>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/Tomcat.PNG"  width="25%"  height="100%"  /><br>Figure 3. Tomca</center>
 <br>
 <p>Tomcat是一個Servlet容器，可以把HTML的東西轉換成Java物件，傳送請求到後端，再傳送回應給前端使用者。</p>
 <h2 id="intellij">Intellij</h2>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/Intellj.PNG"  width="25%"  height="100%"  /><br>Figure 3. intellij</center>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/Intellj.PNG"  width="25%"  height="100%"  /><br>Figure 4. intellij</center>
 <br>
 <p>工作中使用到Java語言，因此選擇評價很好的Java整合式開發環境Intellij。Intellij的優點在於整合了Java開發會用到的工具，運行的速度快。也有許多貼心的提示和修正建議，很容易就上手。</p>
 <h2 id="xampp">XAMPP</h2>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/XAMPP.png"  width="45%"  height="100%"  /><br>Figure 4. XAMPP</center>
+<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/XAMPP.png"  width="45%"  height="100%"  /><br>Figure 5. XAMPP</center>
 <br>
 <p>工作中使用到Apache XAMPP，可以整合各項網頁伺服器會用到的模組，並且用單一介面控制。對於會使用到不同服務的網站架構提供很簡潔的操作介面。就不會每一次開機都要到不同目錄下開每個程式。</p>
 <h2 id="參考資料">參考資料</h2>
