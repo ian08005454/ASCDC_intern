@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-tw"><head>
   <meta charset="utf-8">
-  <title>斷詞系統學習筆記</title>
+  <title>實習心得</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="學習三種不同的斷詞系統">
+  <meta name="description" content="李彥瑾的實習心得">
   <meta name="author" content="Wei-Jie, Li">
   <meta name="generator" content="Hugo 0.71.1" />
 
@@ -94,13 +94,13 @@
   </div>
 </header>
 
-<section class="page-title bg-2" style="background-image: url('https://ian08005454.github.io/ASCDC_intern/images/blog/%e8%87%aa%e7%84%b6%e8%aa%9e%e8%a8%80%e5%89%8d%e8%99%95%e7%90%86blog%e5%b0%81%e9%9d%a2%e5%9c%96.jpg');">
+<section class="page-title bg-2" style="background-image: url('https://ian08005454.github.io/ASCDC_intern/images/blog/%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97%E5%B0%81%E9%9D%A2.jpg');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>斷詞系統學習筆記</h1>
-          <p>學習三種不同的斷詞系統</p>
+          <h1>實習心得</h1>
+          <p>李彥瑾的實習心得</p>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
 		<div class="row">
 			<div class="col-md-8">
 				<div class="post post-single">
-					<h2 class="post-title">斷詞系統學習筆記</h2>
+					<h2 class="post-title">實習心得</h2>
 					<div class="post-meta">
 						<ul>
               <li><i class="ion-calendar"></i> June 11, 2020</li>
@@ -124,40 +124,28 @@
               </li>
               <li><i class="ion-pricetags"></i> 
                 
-                <a href="https://ian08005454.github.io/ASCDC_intern/tags/%e8%87%aa%e7%84%b6%e8%aa%9e%e8%a8%80%e5%89%8d%e8%99%95%e7%90%86">自然語言前處理</a>
-								
-                , <a href="https://ian08005454.github.io/ASCDC_intern/tags/%e6%96%b7%e8%a9%9e%e7%b3%bb%e7%b5%b1">斷詞系統</a>
+                <a href="https://ian08005454.github.io/ASCDC_intern/tags/%e5%af%a6%e7%bf%92%e5%bf%83%e5%be%97">實習心得</a>
 								
               </li>
             </ul>
 					</div>
 					<div class="post-thumb">
-						<img class="img-responsive" src="https://ian08005454.github.io/ASCDC_intern/images/blog/%e8%87%aa%e7%84%b6%e8%aa%9e%e8%a8%80%e5%89%8d%e8%99%95%e7%90%86blog%e5%b0%81%e9%9d%a2%e5%9c%96.jpg" alt="斷詞系統學習筆記">
+						<img class="img-responsive" src="https://ian08005454.github.io/ASCDC_intern/images/blog/%e5%af%a6%e7%bf%92%e5%bf%83%e5%be%97%e5%b0%81%e9%9d%a2.jpg" alt="實習心得">
 					</div>
 					<div class="post-content post-excerpt">
-						<h1 id="學習使用斷詞系統"><strong>學習使用斷詞系統</strong></h1>
-<p>實習期間參與到的是與自然語言處理(NLP)有關的專案。因一開始的時候先學習使用三個的斷詞引擎，分別為CKIP、Jieba、Stanford。</p>
-<h2 id="ckip">CKIP</h2>
-<p>CKIP是中研院資訊所開發的斷詞引擎，是第一個具備未知詞偵測與句法詞類預測能力的中文分詞系統。在繁體中文斷詞具有主導地位。<br />
-<br></p>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/ckip_result.PNG"  width="100%"  height="100%"  /><br>Figure 1. CKIP斷詞結果</center>
-<br>
-<p>CKIP pipline 是一個很豐富的自然語言工具，其功能有斷詞、詞性標註、實體辨識、指代消解、關係抽取、剖析系統(Parsing Tree)等功能。</p>
-<h2 id="jieba">Jieba</h2>
-<p>Jieba也是一個開源的斷詞系統，其原始碼可以在GitHub找到。Jieba的優點是速度快，並且替換字典檔容易。不過字典檔對於Jieba就顯得更為重要，如果遇到沒有在字典檔中的詞，斷詞結果就不會有詞性標註。<br />
-下圖紅色框框是詞性標註的欄位</p>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/jieba_result.PNG"  width="100%"  height="100%"  /><br>Figure 2. Jieba斷詞結果</center>
-<h2 id="stanford">Stanford</h2>
-<p>Stanford對於中英文斷詞有各自的套件可以下載。練習的時候是針對英文文本斷詞。英文斷詞相對中文來說較為單純，比較不會有歧異字的問題，所以斷詞的結果也比較精確。</p>
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/Stanford_result.PNG"  width="100%"  height="100%"  /><br>Figure 3. Stanford英文斷詞結果</center>
-<br>
-在暑假期間嘗試了 Stanford 的繁體中文斷詞，Stanford 可以用自己的語料庫訓練斷詞模型，Stanford Core NLP 也提供多國語言的斷詞功能。是一個具有彈性的斷詞工具。下圖是Stanford中文斷詞的結果。
-<center><img  src="https://ian08005454.github.io/ASCDC_intern/images/blog/stanforResult2.png"  width="100%"  height="100%"  /><br>Figure 4. Stanford繁體中文斷詞結果</center>
-<br>
-## 參考資料
-1. [https://ckip.iis.sinica.edu.tw/demo/](https://ckip.iis.sinica.edu.tw/demo/)
-2. [https://github.com/GlassyWing/better-jieba](https://github.com/GlassyWing/better-jieba)
-3. [https://stanfordnlp.github.io/CoreNLP/download.html](https://stanfordnlp.github.io/CoreNLP/download.html)
+						<h1 id="實習心得"><strong>實習心得</strong></h1>
+<h3 id="自我評估">自我評估</h3>
+<p>由於參與的計畫還在開發中，許多需求還未明確，也無法確定當前的作法能否達到期望的效果。所以除了按照經理所說的來做，自己也可以多方研究是否有更好的方法，主管們都非常願意聆聽工讀生們的想法。</p>
+<p>一開始不熟悉Java語法，在安裝環境的時候遇到很多問題，還好有正職的同事幫忙，給我很多參考網址讓我自己去把環境慢慢裝起來，遇到問題的時候也是很快地來幫助我。寫程式方面也受到很多指導，因為自己的邏輯並不是很好，主管和同事也會給予很多協助，會跟我說有可以哪些方法用。</p>
+<p>在將近一學期的實習，每天都很充實，雖然我們沒有像業界公司有進度上的壓力，但是每周的報告中都希望自己能有一些成果可以呈現。過程中也發現自己有很多不足，因為我們開發的系統是半自動化的數位研究，因此方法的有效性也是持續研究。過程中經理也有給我看別人的論文，發現真的需要多方的閱讀其他人的經驗和做法之後再回頭來實作會更踏實，否則很容易做出不實用的系統。</p>
+<p>疫情期間我們在家工作了一個月，覺得工作效率提高，但是和團隊討論的機會變少，加上有兩天在上課的關係，有時會無法了解當前的需求和進度。因此，覺得在家工作很棒，但還是需要不時關注團隊的進度。</p>
+<p>暑期主要在做分詞的速度測試和優化的部分。發現要做好測試是一門很深奧的學問，測試的過程中不斷和主管討論方向，慢慢的才將測試完成。在做優化的過程因為使用許多不熟悉的技術，也遇到很多問題，後來才在與同學的討論跟合作下才將工作完成。可以和他人合作完成困難的事情覺得很開心。</p>
+<h3 id="心得感想">心得感想</h3>
+<p>覺得中研院數位文化中心有非常自由的工作環境，也有滿有趣、具挑戰性的專案讓工讀生來做。一開始主管會問我們想要做哪方面的領域，有機器學習、自然語言處理、影像分析、視覺化呈現&hellip;等。剛開始工作交接的時候主管會給我們學習的時間，也會給我們題目和資料去練習，如果遇到問題也有許多學長姊、正職和主管可以詢問，大家都會很積極地幫助我們。感謝系上為我們安排一年的實習，也很感謝中研院給予我們學習的機會。</p>
+<p>在暑期的實習當中，遇到很多以前沒有遇到過的問題，但是也因此學習到很多。除了接觸到新的知識之外，也學習到團隊合作的重要性。</p>
+<h3 id="對系上的建議">對系上的建議</h3>
+<p>感謝系上為我們媒合實習公司，大學中有一年的實習機會真的很好，可以學習到很多學校所學不到的東西。也很感謝系上為我們安排很多公司介紹講座和學長姊分享。唯一覺得稍微不足的部分，在實習中會發現學校所學的是比較基礎的概念，沒有理解到所學的語言更核心的特性和架構，以及除了邏輯之外在實務上會如何來使用。學校的微型課程或系上的工作坊是很好的方式，可以引入業師開設短期實作課程，讓同學們有多種選擇也能吸收最新的市場技術。</p>
+
 					</div>
 					<div class="post-comments">
 						

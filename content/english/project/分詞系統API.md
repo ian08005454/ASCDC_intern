@@ -3,7 +3,7 @@
 title: "分詞系統 API"
 description: "呼叫 CKIP 及 Stanford 分詞的 API 和提升分詞速度"
 draft: false
-image : "images/project/projecct1_result.png"
+image : "images/project/ckipMultithreading.png"
 bg_image: "https://ian08005454.github.io/ASCDC_intern/images/DRP.PNG"
 category: "分詞相關"
 information:
