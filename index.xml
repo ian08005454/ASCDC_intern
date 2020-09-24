@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copyright &amp;copy; 2020 1061619李韋杰、1061653李彥瑾 All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 12 Jun 2020 10:00:30 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 10:00:30 +0800</lastBuildDate>
     
 	<atom:link href="https://ian08005454.github.io/ASCDC_intern/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1082_實習心得</title>
+      <link>https://ian08005454.github.io/ASCDC_intern/blog/%E6%9D%8E%E9%9F%8B%E6%9D%B0%E7%9A%84%E6%9A%91%E6%9C%9F%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Thu, 24 Sep 2020 10:00:30 +0800</pubDate>
+      
+      <guid>https://ian08005454.github.io/ASCDC_intern/blog/%E6%9D%8E%E9%9F%8B%E6%9D%B0%E7%9A%84%E6%9A%91%E6%9C%9F%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97/</guid>
+      <description>自我評估:這4個月於中研院實習過得很充實，雖然一開始覺得做前端資料視覺化沒有很需技術實力的感覺，也想說來這裡想多學習一點與機器學習有關的內容，但在接觸和學習網頁前端後&amp;hellip;</description>
+    </item>
     
     <item>
       <title>1082_實習心得</title>
@@ -133,7 +142,9 @@ Picture 1. Markdown Table由於 Markdown 語法的加入圖片不能調整大�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ian08005454.github.io/ASCDC_intern/project/forcelayout2/</guid>
-      <description>圖 2 軟體畫面## 本軟體目的此軟體的主要功能是協助於中研院數位人文研究平台研究的研究者了解文本中制定的物間之間的關係，並與物件定義資料從視覺化中發現一些細微的關係。但通常書中的資料繁多，因此需要有強大的搜尋功能和篩選功能。而我就在上學期加入了邏輯搜尋功能與多節點間的關係搜尋和節點列表。功能介紹 本節說明本軟體之使用介面與功能，軟體之使用介面如圖 2 所示，主要可區分為四大區塊，為資料視覺化區、視覺化調整區、搜尋區、篩選區，以下將詳細介紹各區塊之功能，並運用數位人文研究平台運算的共現資料和關係定義資料來分析書籍中人物的關係，說明應用本軟體對於研究分析的幫助。</description>
+      <description>圖 2 軟體畫面本軟體目的 此軟體的主要功能是協助於中研院數位人文研究平台研究的研究者了解文本中制定的物間之間的關係，並與物件定義資料從視覺化中發現一些細微的關係。但通常書中的資料繁多，因此需要有強大的搜尋功能和篩選功能。而我就在上學期加入了邏輯搜尋功能與多節點間的關係搜尋和節點列表。
+功能介紹 資料視覺化區 在資料視覺化區中，會以圖形呈現社會網絡分析的資料，我們以節點表示社會網絡分析中的物件、線段表示關係、線段上的文字代表關係的定義、線段上的數字則是共現次數。
+我們有兩種圖表可以顯示，一個是環形圖(circular layout)如圖 3所示，特色是會將節點等距排列成環形，在規模小時物件不會重疊及有規則的呈現物件規模與密集程度，另一個是力布局圖(force layout)如圖 4所示，排列方式是計算引力與斥力來算出他們的位置，因此能充分展現整體結構及物件所屬群體。</description>
     </item>
     
     <item>
